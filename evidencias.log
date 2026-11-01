@@ -1,3 +1,7 @@
+EVIDENCIAS CONSOLIDADAS - ETAPAS 1 E 2
+Gerado em 2026-11-01 14:06:48
+
+===== INICIO DA ETAPA 1 =====
 EVIDENCIAS DA ETAPA 1 - hmrn
 Escopo: estado inicial, mutex e variaveis de condicao; embarque nao implementado nesta etapa.
 Resultado: teste inicial aprovado (4 verificacoes) e campanha de 80/80 execucoes aprovadas.
@@ -3177,3 +3181,2004 @@ STDERR:
 TAMANHO HISTORICO DO LOG DA CAMPANHA: 109013 bytes | 109.01 KB | 106.46 KiB
 
 TAMANHO TOTAL DE evidencias.log: 111737 bytes | 111.74 KB | 109.12 KiB
+
+===== FIM DA ETAPA 1 =====
+
+===== INICIO DA ETAPA 2 =====
+CAMPANHA DA ETAPA 2 - LOG UNICO
+
+RESUMO FINAL DA CAMPANHA
+Encerramento do ultimo lote: 2026-11-01T12:39:51.872-03:00
+Resultado: 80/80 PASS; quatro cenarios com 20 execucoes cada; sem falhas ou timeout.
+
+Teste | Aprovacoes | Saidas distintas | Min_ms | Mediana_ms | Max_ms
+1 | 20/20 | 1 | 3.711 | 4.412 | 5.154
+2 | 20/20 | 1 | 4.578 | 5.023 | 5.647
+3 | 20/20 | 1 | 4.264 | 5.040 | 6.280
+4 | 20/20 | 1 | 4.587 | 4.800 | 5.496
+
+Os dois lotes de cada cenario usaram fontes e binarios com hashes coincidentes.
+As saidas foram comparadas dentro de cada cenario. Tempos incluem abertura do processo e captura de saida.
+Escopo: espera sem disponibilidade, notificacoes sem vaga, espera coletiva e estacoes independentes.
+A disponibilidade foi simulada sob o mutex. Nao houve teste de reserva de assentos, confirmacao ou partida.
+A instrumentacao observa pthread_cond_wait e chama a funcao real; os fontes da etapa 2 nao foram modificados.
+FIM DO RESUMO FINAL
+
+Registro final consolidado. Os registros brutos foram preservados em work/campanha_etapa2.
+EXECUCOES REGISTRADAS: 80/80 | PASS: 80 | OUTROS RESULTADOS: 0
+CAMPANHA ENCERRADA | INTERVALO UTILIZADO: 5 minutos | LOTE: ate 10 execucoes
+Duracoes incluem abertura do processo e captura da saida; nao sao benchmark.
+
+ESCOPO: espera sem vagas e notificacoes; nao ha reserva nem confirmacao nesta etapa.
+O teste altera free_seats sob o mutex para simular disponibilidade sem chamar as funcoes incompletas.
+Observacao via GNU ld --wrap; o pthread_cond_wait real continua sendo executado.
+
+PROGRESSO POR TESTE
+Teste 1: 20/20 executadas; 20 PASS
+Teste 2: 20/20 executadas; 20 PASS
+Teste 3: 20/20 executadas; 20 PASS
+Teste 4: 20/20 executadas; 20 PASS
+CAMPANHA ENCERRADA: 80 execucoes registradas. Conferir resultados acima.
+
+COMPARACAO DAS EXECUCOES
+Teste | Execucao | Resultado | Exit | Timeout | Duracao_ms | Inicio
+1 | 1 | PASS | 0 | False | 4.539 | 2026-11-01T12:03:10.525-03:00
+1 | 2 | PASS | 0 | False | 4.196 | 2026-11-01T12:03:10.560-03:00
+1 | 3 | PASS | 0 | False | 3.991 | 2026-11-01T12:03:10.596-03:00
+1 | 4 | PASS | 0 | False | 3.803 | 2026-11-01T12:03:10.634-03:00
+1 | 5 | PASS | 0 | False | 4.872 | 2026-11-01T12:03:10.674-03:00
+1 | 6 | PASS | 0 | False | 3.711 | 2026-11-01T12:03:10.717-03:00
+1 | 7 | PASS | 0 | False | 3.865 | 2026-11-01T12:03:10.763-03:00
+1 | 8 | PASS | 0 | False | 4.016 | 2026-11-01T12:03:10.813-03:00
+1 | 9 | PASS | 0 | False | 4.646 | 2026-11-01T12:03:10.864-03:00
+1 | 10 | PASS | 0 | False | 4.054 | 2026-11-01T12:03:10.919-03:00
+1 | 11 | PASS | 0 | False | 4.549 | 2026-11-01T12:09:44.961-03:00
+1 | 12 | PASS | 0 | False | 5.083 | 2026-11-01T12:09:45.025-03:00
+1 | 13 | PASS | 0 | False | 3.771 | 2026-11-01T12:09:45.092-03:00
+1 | 14 | PASS | 0 | False | 3.957 | 2026-11-01T12:09:45.162-03:00
+1 | 15 | PASS | 0 | False | 5.035 | 2026-11-01T12:09:45.237-03:00
+1 | 16 | PASS | 0 | False | 4.286 | 2026-11-01T12:09:45.311-03:00
+1 | 17 | PASS | 0 | False | 5.027 | 2026-11-01T12:09:45.390-03:00
+1 | 18 | PASS | 0 | False | 4.679 | 2026-11-01T12:09:45.466-03:00
+1 | 19 | PASS | 0 | False | 5.154 | 2026-11-01T12:09:45.548-03:00
+1 | 20 | PASS | 0 | False | 4.586 | 2026-11-01T12:09:45.634-03:00
+2 | 1 | PASS | 0 | False | 4.995 | 2026-11-01T12:14:45.211-03:00
+2 | 2 | PASS | 0 | False | 5.053 | 2026-11-01T12:14:45.311-03:00
+2 | 3 | PASS | 0 | False | 4.674 | 2026-11-01T12:14:45.412-03:00
+2 | 4 | PASS | 0 | False | 4.578 | 2026-11-01T12:14:45.511-03:00
+2 | 5 | PASS | 0 | False | 4.596 | 2026-11-01T12:14:45.619-03:00
+2 | 6 | PASS | 0 | False | 4.845 | 2026-11-01T12:14:45.727-03:00
+2 | 7 | PASS | 0 | False | 5.337 | 2026-11-01T12:14:45.839-03:00
+2 | 8 | PASS | 0 | False | 4.909 | 2026-11-01T12:14:45.962-03:00
+2 | 9 | PASS | 0 | False | 4.767 | 2026-11-01T12:14:46.073-03:00
+2 | 10 | PASS | 0 | False | 4.606 | 2026-11-01T12:14:46.191-03:00
+2 | 11 | PASS | 0 | False | 5.125 | 2026-11-01T12:19:48.005-03:00
+2 | 12 | PASS | 0 | False | 5.647 | 2026-11-01T12:19:48.142-03:00
+2 | 13 | PASS | 0 | False | 4.586 | 2026-11-01T12:19:48.283-03:00
+2 | 14 | PASS | 0 | False | 5.051 | 2026-11-01T12:19:48.428-03:00
+2 | 15 | PASS | 0 | False | 5.228 | 2026-11-01T12:19:48.579-03:00
+2 | 16 | PASS | 0 | False | 5.150 | 2026-11-01T12:19:48.731-03:00
+2 | 17 | PASS | 0 | False | 5.423 | 2026-11-01T12:19:48.871-03:00
+2 | 18 | PASS | 0 | False | 5.351 | 2026-11-01T12:19:49.017-03:00
+2 | 19 | PASS | 0 | False | 4.788 | 2026-11-01T12:19:49.168-03:00
+2 | 20 | PASS | 0 | False | 5.177 | 2026-11-01T12:19:49.329-03:00
+3 | 1 | PASS | 0 | False | 5.293 | 2026-11-01T12:24:47.347-03:00
+3 | 2 | PASS | 0 | False | 5.795 | 2026-11-01T12:24:47.516-03:00
+3 | 3 | PASS | 0 | False | 4.802 | 2026-11-01T12:24:47.687-03:00
+3 | 4 | PASS | 0 | False | 5.454 | 2026-11-01T12:24:47.862-03:00
+3 | 5 | PASS | 0 | False | 4.473 | 2026-11-01T12:24:48.040-03:00
+3 | 6 | PASS | 0 | False | 4.606 | 2026-11-01T12:24:48.229-03:00
+3 | 7 | PASS | 0 | False | 5.446 | 2026-11-01T12:24:48.420-03:00
+3 | 8 | PASS | 0 | False | 4.979 | 2026-11-01T12:24:48.605-03:00
+3 | 9 | PASS | 0 | False | 4.264 | 2026-11-01T12:24:48.789-03:00
+3 | 10 | PASS | 0 | False | 4.807 | 2026-11-01T12:24:48.972-03:00
+3 | 11 | PASS | 0 | False | 4.475 | 2026-11-01T12:29:46.061-03:00
+3 | 12 | PASS | 0 | False | 4.893 | 2026-11-01T12:29:46.262-03:00
+3 | 13 | PASS | 0 | False | 5.877 | 2026-11-01T12:29:46.470-03:00
+3 | 14 | PASS | 0 | False | 5.220 | 2026-11-01T12:29:46.684-03:00
+3 | 15 | PASS | 0 | False | 5.159 | 2026-11-01T12:29:46.903-03:00
+3 | 16 | PASS | 0 | False | 4.526 | 2026-11-01T12:29:47.124-03:00
+3 | 17 | PASS | 0 | False | 5.100 | 2026-11-01T12:29:47.339-03:00
+3 | 18 | PASS | 0 | False | 5.588 | 2026-11-01T12:29:47.563-03:00
+3 | 19 | PASS | 0 | False | 6.280 | 2026-11-01T12:29:47.801-03:00
+3 | 20 | PASS | 0 | False | 4.400 | 2026-11-01T12:29:48.025-03:00
+4 | 1 | PASS | 0 | False | 4.796 | 2026-11-01T12:34:44.262-03:00
+4 | 2 | PASS | 0 | False | 5.496 | 2026-11-01T12:34:44.506-03:00
+4 | 3 | PASS | 0 | False | 4.761 | 2026-11-01T12:34:44.743-03:00
+4 | 4 | PASS | 0 | False | 4.845 | 2026-11-01T12:34:44.985-03:00
+4 | 5 | PASS | 0 | False | 4.844 | 2026-11-01T12:34:45.227-03:00
+4 | 6 | PASS | 0 | False | 4.733 | 2026-11-01T12:34:45.470-03:00
+4 | 7 | PASS | 0 | False | 4.777 | 2026-11-01T12:34:45.722-03:00
+4 | 8 | PASS | 0 | False | 4.693 | 2026-11-01T12:34:45.974-03:00
+4 | 9 | PASS | 0 | False | 4.803 | 2026-11-01T12:34:46.218-03:00
+4 | 10 | PASS | 0 | False | 4.911 | 2026-11-01T12:34:46.474-03:00
+4 | 11 | PASS | 0 | False | 4.638 | 2026-11-01T12:39:49.028-03:00
+4 | 12 | PASS | 0 | False | 5.327 | 2026-11-01T12:39:49.301-03:00
+4 | 13 | PASS | 0 | False | 5.203 | 2026-11-01T12:39:49.576-03:00
+4 | 14 | PASS | 0 | False | 5.306 | 2026-11-01T12:39:49.864-03:00
+4 | 15 | PASS | 0 | False | 4.587 | 2026-11-01T12:39:50.150-03:00
+4 | 16 | PASS | 0 | False | 4.929 | 2026-11-01T12:39:50.433-03:00
+4 | 17 | PASS | 0 | False | 4.707 | 2026-11-01T12:39:50.712-03:00
+4 | 18 | PASS | 0 | False | 4.590 | 2026-11-01T12:39:51.003-03:00
+4 | 19 | PASS | 0 | False | 4.600 | 2026-11-01T12:39:51.293-03:00
+4 | 20 | PASS | 0 | False | 5.089 | 2026-11-01T12:39:51.585-03:00
+
+===== lote_t1_01_a_10: COMPILACAO =====
+DATA: 2026-11-01T12:03:10.484-03:00
+COMANDO: make -B teste1
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste1.c -Wl,--wrap=pthread_cond_wait -o teste1
+
+EXIT_CODE: 0
+
+
+===== TESTE 1 / EXECUCAO 1 =====
+INICIO: 2026-11-01T12:03:10.525-03:00
+COMANDO: ./teste1
+EXECUCAO: 1
+DURACAO_MS: 4.539
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 2 =====
+INICIO: 2026-11-01T12:03:10.560-03:00
+COMANDO: ./teste1
+EXECUCAO: 2
+DURACAO_MS: 4.196
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 3 =====
+INICIO: 2026-11-01T12:03:10.596-03:00
+COMANDO: ./teste1
+EXECUCAO: 3
+DURACAO_MS: 3.991
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 4 =====
+INICIO: 2026-11-01T12:03:10.634-03:00
+COMANDO: ./teste1
+EXECUCAO: 4
+DURACAO_MS: 3.803
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 5 =====
+INICIO: 2026-11-01T12:03:10.674-03:00
+COMANDO: ./teste1
+EXECUCAO: 5
+DURACAO_MS: 4.872
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 6 =====
+INICIO: 2026-11-01T12:03:10.717-03:00
+COMANDO: ./teste1
+EXECUCAO: 6
+DURACAO_MS: 3.711
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 7 =====
+INICIO: 2026-11-01T12:03:10.763-03:00
+COMANDO: ./teste1
+EXECUCAO: 7
+DURACAO_MS: 3.865
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 8 =====
+INICIO: 2026-11-01T12:03:10.813-03:00
+COMANDO: ./teste1
+EXECUCAO: 8
+DURACAO_MS: 4.016
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 9 =====
+INICIO: 2026-11-01T12:03:10.864-03:00
+COMANDO: ./teste1
+EXECUCAO: 9
+DURACAO_MS: 4.646
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 10 =====
+INICIO: 2026-11-01T12:03:10.919-03:00
+COMANDO: ./teste1
+EXECUCAO: 10
+DURACAO_MS: 4.054
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== lote_t1_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:03:09.710-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 1,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "22497b597f845056e06474aa4568c810f88c17c6714c63aaffe5654d1f078a3a",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:03:10.978-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t1_11_a_20: COMPILACAO =====
+DATA: 2026-11-01T12:09:44.900-03:00
+COMANDO: make -B teste1
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste1.c -Wl,--wrap=pthread_cond_wait -o teste1
+
+EXIT_CODE: 0
+
+
+===== TESTE 1 / EXECUCAO 11 =====
+INICIO: 2026-11-01T12:09:44.961-03:00
+COMANDO: ./teste1
+EXECUCAO: 11
+DURACAO_MS: 4.549
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 12 =====
+INICIO: 2026-11-01T12:09:45.025-03:00
+COMANDO: ./teste1
+EXECUCAO: 12
+DURACAO_MS: 5.083
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 13 =====
+INICIO: 2026-11-01T12:09:45.092-03:00
+COMANDO: ./teste1
+EXECUCAO: 13
+DURACAO_MS: 3.771
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 14 =====
+INICIO: 2026-11-01T12:09:45.162-03:00
+COMANDO: ./teste1
+EXECUCAO: 14
+DURACAO_MS: 3.957
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 15 =====
+INICIO: 2026-11-01T12:09:45.237-03:00
+COMANDO: ./teste1
+EXECUCAO: 15
+DURACAO_MS: 5.035
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 16 =====
+INICIO: 2026-11-01T12:09:45.311-03:00
+COMANDO: ./teste1
+EXECUCAO: 16
+DURACAO_MS: 4.286
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 17 =====
+INICIO: 2026-11-01T12:09:45.390-03:00
+COMANDO: ./teste1
+EXECUCAO: 17
+DURACAO_MS: 5.027
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 18 =====
+INICIO: 2026-11-01T12:09:45.466-03:00
+COMANDO: ./teste1
+EXECUCAO: 18
+DURACAO_MS: 4.679
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 19 =====
+INICIO: 2026-11-01T12:09:45.548-03:00
+COMANDO: ./teste1
+EXECUCAO: 19
+DURACAO_MS: 5.154
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 20 =====
+INICIO: 2026-11-01T12:09:45.634-03:00
+COMANDO: ./teste1
+EXECUCAO: 20
+DURACAO_MS: 4.586
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+sem_vaga: waiting=1 returned=0 boarding=0
+apos_disponibilidade: waiting=0 returned=1 free_seats=1
+PASS teste=1 bloqueio_sem_vaga=OK retorno_apos_disponibilidade=OK
+
+STDERR:
+
+
+===== lote_t1_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:09:44.150-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 1,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "22497b597f845056e06474aa4568c810f88c17c6714c63aaffe5654d1f078a3a",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:09:45.724-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t2_01_a_10: COMPILACAO =====
+DATA: 2026-11-01T12:14:45.111-03:00
+COMANDO: make -B teste2
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste2.c -Wl,--wrap=pthread_cond_wait -o teste2
+
+EXIT_CODE: 0
+
+
+===== TESTE 2 / EXECUCAO 1 =====
+INICIO: 2026-11-01T12:14:45.211-03:00
+COMANDO: ./teste2
+EXECUCAO: 1
+DURACAO_MS: 4.995
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 2 =====
+INICIO: 2026-11-01T12:14:45.311-03:00
+COMANDO: ./teste2
+EXECUCAO: 2
+DURACAO_MS: 5.053
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 3 =====
+INICIO: 2026-11-01T12:14:45.412-03:00
+COMANDO: ./teste2
+EXECUCAO: 3
+DURACAO_MS: 4.674
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 4 =====
+INICIO: 2026-11-01T12:14:45.511-03:00
+COMANDO: ./teste2
+EXECUCAO: 4
+DURACAO_MS: 4.578
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 5 =====
+INICIO: 2026-11-01T12:14:45.619-03:00
+COMANDO: ./teste2
+EXECUCAO: 5
+DURACAO_MS: 4.596
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 6 =====
+INICIO: 2026-11-01T12:14:45.727-03:00
+COMANDO: ./teste2
+EXECUCAO: 6
+DURACAO_MS: 4.845
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 7 =====
+INICIO: 2026-11-01T12:14:45.839-03:00
+COMANDO: ./teste2
+EXECUCAO: 7
+DURACAO_MS: 5.337
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 8 =====
+INICIO: 2026-11-01T12:14:45.962-03:00
+COMANDO: ./teste2
+EXECUCAO: 8
+DURACAO_MS: 4.909
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 9 =====
+INICIO: 2026-11-01T12:14:46.073-03:00
+COMANDO: ./teste2
+EXECUCAO: 9
+DURACAO_MS: 4.767
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 10 =====
+INICIO: 2026-11-01T12:14:46.191-03:00
+COMANDO: ./teste2
+EXECUCAO: 10
+DURACAO_MS: 4.606
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== lote_t2_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:14:44.274-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 2,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "4eb7591c89e627c39b322ed5535aa7ff442bb126b3d34f35b36c047e8d894a48",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:14:46.315-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t2_11_a_20: COMPILACAO =====
+DATA: 2026-11-01T12:19:47.877-03:00
+COMANDO: make -B teste2
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste2.c -Wl,--wrap=pthread_cond_wait -o teste2
+
+EXIT_CODE: 0
+
+
+===== TESTE 2 / EXECUCAO 11 =====
+INICIO: 2026-11-01T12:19:48.005-03:00
+COMANDO: ./teste2
+EXECUCAO: 11
+DURACAO_MS: 5.125
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 12 =====
+INICIO: 2026-11-01T12:19:48.142-03:00
+COMANDO: ./teste2
+EXECUCAO: 12
+DURACAO_MS: 5.647
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 13 =====
+INICIO: 2026-11-01T12:19:48.283-03:00
+COMANDO: ./teste2
+EXECUCAO: 13
+DURACAO_MS: 4.586
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 14 =====
+INICIO: 2026-11-01T12:19:48.428-03:00
+COMANDO: ./teste2
+EXECUCAO: 14
+DURACAO_MS: 5.051
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 15 =====
+INICIO: 2026-11-01T12:19:48.579-03:00
+COMANDO: ./teste2
+EXECUCAO: 15
+DURACAO_MS: 5.228
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 16 =====
+INICIO: 2026-11-01T12:19:48.731-03:00
+COMANDO: ./teste2
+EXECUCAO: 16
+DURACAO_MS: 5.150
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 17 =====
+INICIO: 2026-11-01T12:19:48.871-03:00
+COMANDO: ./teste2
+EXECUCAO: 17
+DURACAO_MS: 5.423
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 18 =====
+INICIO: 2026-11-01T12:19:49.017-03:00
+COMANDO: ./teste2
+EXECUCAO: 18
+DURACAO_MS: 5.351
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 19 =====
+INICIO: 2026-11-01T12:19:49.168-03:00
+COMANDO: ./teste2
+EXECUCAO: 19
+DURACAO_MS: 4.788
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 20 =====
+INICIO: 2026-11-01T12:19:49.329-03:00
+COMANDO: ./teste2
+EXECUCAO: 20
+DURACAO_MS: 5.177
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+notificacao=01 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=02 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=03 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=04 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=05 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=06 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=07 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=08 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=09 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=10 tipo=broadcast vaga=0 returned=0 reespera=OK
+notificacao=11 tipo=signal vaga=0 returned=0 reespera=OK
+notificacao=12 tipo=broadcast vaga=0 returned=0 reespera=OK
+chamadas_de_espera=13
+PASS teste=2 notificacoes_sem_vaga=12 reavaliacao_do_predicado=OK
+
+STDERR:
+
+
+===== lote_t2_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:19:47.131-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 2,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "4eb7591c89e627c39b322ed5535aa7ff442bb126b3d34f35b36c047e8d894a48",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:19:49.504-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t3_01_a_10: COMPILACAO =====
+DATA: 2026-11-01T12:24:47.171-03:00
+COMANDO: make -B teste3
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste3.c -Wl,--wrap=pthread_cond_wait -o teste3
+
+EXIT_CODE: 0
+
+
+===== TESTE 3 / EXECUCAO 1 =====
+INICIO: 2026-11-01T12:24:47.347-03:00
+COMANDO: ./teste3
+EXECUCAO: 1
+DURACAO_MS: 5.293
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 2 =====
+INICIO: 2026-11-01T12:24:47.516-03:00
+COMANDO: ./teste3
+EXECUCAO: 2
+DURACAO_MS: 5.795
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 3 =====
+INICIO: 2026-11-01T12:24:47.687-03:00
+COMANDO: ./teste3
+EXECUCAO: 3
+DURACAO_MS: 4.802
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 4 =====
+INICIO: 2026-11-01T12:24:47.862-03:00
+COMANDO: ./teste3
+EXECUCAO: 4
+DURACAO_MS: 5.454
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 5 =====
+INICIO: 2026-11-01T12:24:48.040-03:00
+COMANDO: ./teste3
+EXECUCAO: 5
+DURACAO_MS: 4.473
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 6 =====
+INICIO: 2026-11-01T12:24:48.229-03:00
+COMANDO: ./teste3
+EXECUCAO: 6
+DURACAO_MS: 4.606
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 7 =====
+INICIO: 2026-11-01T12:24:48.420-03:00
+COMANDO: ./teste3
+EXECUCAO: 7
+DURACAO_MS: 5.446
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 8 =====
+INICIO: 2026-11-01T12:24:48.605-03:00
+COMANDO: ./teste3
+EXECUCAO: 8
+DURACAO_MS: 4.979
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 9 =====
+INICIO: 2026-11-01T12:24:48.789-03:00
+COMANDO: ./teste3
+EXECUCAO: 9
+DURACAO_MS: 4.264
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 10 =====
+INICIO: 2026-11-01T12:24:48.972-03:00
+COMANDO: ./teste3
+EXECUCAO: 10
+DURACAO_MS: 4.807
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== lote_t3_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:24:46.378-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 3,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "22b5f52872750b486ca0e980bea4a56d6a784e5a7dd0c8400f8357209b5c0973",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:24:49.163-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t3_11_a_20: COMPILACAO =====
+DATA: 2026-11-01T12:29:45.858-03:00
+COMANDO: make -B teste3
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste3.c -Wl,--wrap=pthread_cond_wait -o teste3
+
+EXIT_CODE: 0
+
+
+===== TESTE 3 / EXECUCAO 11 =====
+INICIO: 2026-11-01T12:29:46.061-03:00
+COMANDO: ./teste3
+EXECUCAO: 11
+DURACAO_MS: 4.475
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 12 =====
+INICIO: 2026-11-01T12:29:46.262-03:00
+COMANDO: ./teste3
+EXECUCAO: 12
+DURACAO_MS: 4.893
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 13 =====
+INICIO: 2026-11-01T12:29:46.470-03:00
+COMANDO: ./teste3
+EXECUCAO: 13
+DURACAO_MS: 5.877
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 14 =====
+INICIO: 2026-11-01T12:29:46.684-03:00
+COMANDO: ./teste3
+EXECUCAO: 14
+DURACAO_MS: 5.220
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 15 =====
+INICIO: 2026-11-01T12:29:46.903-03:00
+COMANDO: ./teste3
+EXECUCAO: 15
+DURACAO_MS: 5.159
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 16 =====
+INICIO: 2026-11-01T12:29:47.124-03:00
+COMANDO: ./teste3
+EXECUCAO: 16
+DURACAO_MS: 4.526
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 17 =====
+INICIO: 2026-11-01T12:29:47.339-03:00
+COMANDO: ./teste3
+EXECUCAO: 17
+DURACAO_MS: 5.100
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 18 =====
+INICIO: 2026-11-01T12:29:47.563-03:00
+COMANDO: ./teste3
+EXECUCAO: 18
+DURACAO_MS: 5.588
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 19 =====
+INICIO: 2026-11-01T12:29:47.801-03:00
+COMANDO: ./teste3
+EXECUCAO: 19
+DURACAO_MS: 6.280
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 20 =====
+INICIO: 2026-11-01T12:29:48.025-03:00
+COMANDO: ./teste3
+EXECUCAO: 20
+DURACAO_MS: 4.400
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+antes: waiting=16 returned=0 free_seats=0
+depois: waiting=0 returned=16 free_seats=1 boarding=0
+escopo: etapa 2 nao reserva nem consome vagas
+PASS teste=3 espera_coletiva=16 contagem_final=0
+
+STDERR:
+
+
+===== lote_t3_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:29:45.054-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 3,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "22b5f52872750b486ca0e980bea4a56d6a784e5a7dd0c8400f8357209b5c0973",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:29:48.246-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t4_01_a_10: COMPILACAO =====
+DATA: 2026-11-01T12:34:44.009-03:00
+COMANDO: make -B teste4
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste4.c -Wl,--wrap=pthread_cond_wait -o teste4
+
+EXIT_CODE: 0
+
+
+===== TESTE 4 / EXECUCAO 1 =====
+INICIO: 2026-11-01T12:34:44.262-03:00
+COMANDO: ./teste4
+EXECUCAO: 1
+DURACAO_MS: 4.796
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 2 =====
+INICIO: 2026-11-01T12:34:44.506-03:00
+COMANDO: ./teste4
+EXECUCAO: 2
+DURACAO_MS: 5.496
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 3 =====
+INICIO: 2026-11-01T12:34:44.743-03:00
+COMANDO: ./teste4
+EXECUCAO: 3
+DURACAO_MS: 4.761
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 4 =====
+INICIO: 2026-11-01T12:34:44.985-03:00
+COMANDO: ./teste4
+EXECUCAO: 4
+DURACAO_MS: 4.845
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 5 =====
+INICIO: 2026-11-01T12:34:45.227-03:00
+COMANDO: ./teste4
+EXECUCAO: 5
+DURACAO_MS: 4.844
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 6 =====
+INICIO: 2026-11-01T12:34:45.470-03:00
+COMANDO: ./teste4
+EXECUCAO: 6
+DURACAO_MS: 4.733
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 7 =====
+INICIO: 2026-11-01T12:34:45.722-03:00
+COMANDO: ./teste4
+EXECUCAO: 7
+DURACAO_MS: 4.777
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 8 =====
+INICIO: 2026-11-01T12:34:45.974-03:00
+COMANDO: ./teste4
+EXECUCAO: 8
+DURACAO_MS: 4.693
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 9 =====
+INICIO: 2026-11-01T12:34:46.218-03:00
+COMANDO: ./teste4
+EXECUCAO: 9
+DURACAO_MS: 4.803
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 10 =====
+INICIO: 2026-11-01T12:34:46.474-03:00
+COMANDO: ./teste4
+EXECUCAO: 10
+DURACAO_MS: 4.911
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== lote_t4_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:34:43.162-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 4,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "65b9ecb2304e47eb11e428f59715d29deb73dfd0ab6290667df2daa006504fc7",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:34:46.737-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t4_11_a_20: COMPILACAO =====
+DATA: 2026-11-01T12:39:48.752-03:00
+COMANDO: make -B teste4
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -I../../outputs/02_sete_etapas/02_espera_do_passageiro ../../outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c apoio.c teste4.c -Wl,--wrap=pthread_cond_wait -o teste4
+
+EXIT_CODE: 0
+
+
+===== TESTE 4 / EXECUCAO 11 =====
+INICIO: 2026-11-01T12:39:49.028-03:00
+COMANDO: ./teste4
+EXECUCAO: 11
+DURACAO_MS: 4.638
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 12 =====
+INICIO: 2026-11-01T12:39:49.301-03:00
+COMANDO: ./teste4
+EXECUCAO: 12
+DURACAO_MS: 5.327
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 13 =====
+INICIO: 2026-11-01T12:39:49.576-03:00
+COMANDO: ./teste4
+EXECUCAO: 13
+DURACAO_MS: 5.203
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 14 =====
+INICIO: 2026-11-01T12:39:49.864-03:00
+COMANDO: ./teste4
+EXECUCAO: 14
+DURACAO_MS: 5.306
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 15 =====
+INICIO: 2026-11-01T12:39:50.150-03:00
+COMANDO: ./teste4
+EXECUCAO: 15
+DURACAO_MS: 4.587
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 16 =====
+INICIO: 2026-11-01T12:39:50.433-03:00
+COMANDO: ./teste4
+EXECUCAO: 16
+DURACAO_MS: 4.929
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 17 =====
+INICIO: 2026-11-01T12:39:50.712-03:00
+COMANDO: ./teste4
+EXECUCAO: 17
+DURACAO_MS: 4.707
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 18 =====
+INICIO: 2026-11-01T12:39:51.003-03:00
+COMANDO: ./teste4
+EXECUCAO: 18
+DURACAO_MS: 4.590
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 19 =====
+INICIO: 2026-11-01T12:39:51.293-03:00
+COMANDO: ./teste4
+EXECUCAO: 19
+DURACAO_MS: 4.600
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 20 =====
+INICIO: 2026-11-01T12:39:51.585-03:00
+COMANDO: ./teste4
+EXECUCAO: 20
+DURACAO_MS: 5.089
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_A: returned_A=8 waiting_B=8 returned_B=0
+PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
+
+STDERR:
+
+
+===== lote_t4_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-11-01T12:39:48.004-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa2",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 4,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.c": "90502d428bf55dba823ad9e05657116093889b357ac331623cd8daeffd4be91e",
+    "outputs/02_sete_etapas/02_espera_do_passageiro/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa2/apoio.h": "87d30c00c0f9339e5440250039a09aadbf9ccbe4eeaf5608f2821c5eec505dc6",
+    "work/campanha_etapa2/apoio.c": "be91f71540bb838c3bc4279dae671857e5afe5c6621766fe7f9c5c9b69b0684d",
+    "work/campanha_etapa2/teste1.c": "e23ed5423920cbc0c281722a4ae72a0876c50ab2909364fe8118b0e4b5052778",
+    "work/campanha_etapa2/teste2.c": "3ae091bfe0e8493d7ebfe7d164b4b12c3a05483a7fc7d412920ccd59921e262b",
+    "work/campanha_etapa2/teste3.c": "b63545e0445a29aa7aaacf6a6a002d12b7093dcc34fa72d347b178beea610df6",
+    "work/campanha_etapa2/teste4.c": "be0e77453ca6d003f5d038fec73963eeb871ab538315a81ea33542fbb12a15d6",
+    "work/campanha_etapa2/Makefile": "b50c48c16feea65abeacf2b7a6dea844ccb683b2f0ada753453bfefb4b520bc8",
+    "work/campanha_etapa2/rodar_lote.py": "ab1f33f7b3968c63327418d66cb15fe64f3eb8ea94bd2010bea05e6cf1251b74",
+    "work/campanha_etapa2/atualizar_log.py": "e68cd6a67ee1bb56792d5b61092c9202d026ef0d1e3049300627c28f6c184bc7"
+  },
+  "binario_sha256": "65b9ecb2304e47eb11e428f59715d29deb73dfd0ab6290667df2daa006504fc7",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-11-01T12:39:51.872-03:00",
+  "execucoes_realizadas": 10
+}
+
+TAMANHO DESTE LOG: 64780 bytes | 64.78 KB | 63.26 KiB
+
+===== FIM DA ETAPA 2 =====

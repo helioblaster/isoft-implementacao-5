@@ -19,10 +19,15 @@ void station_load_car(struct station *station, int count)
     abort();
 }
 
+
 void station_wait_for_car(struct station *station)
 {
-    (void)station;
-    abort();
+    pthread_mutex_lock(&station->lock);
+    station->waiting++;
+    while (station->free_seats == 0)
+        pthread_cond_wait(&station->car_available, &station->lock);
+    station->waiting--;
+    pthread_mutex_unlock(&station->lock);
 }
 
 void station_on_board(struct station *station)
