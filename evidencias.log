@@ -1,0 +1,3179 @@
+EVIDENCIAS DA ETAPA 1 - hmrn
+Escopo: estado inicial, mutex e variaveis de condicao; embarque nao implementado nesta etapa.
+Resultado: teste inicial aprovado (4 verificacoes) e campanha de 80/80 execucoes aprovadas.
+Conferencia: 80 registros individuais, 80 stdout, 80 stderr, 8 compilacoes e 8 manifestos presentes.
+Cada cenario tem exatamente 20 execucoes, sem duplicacao de pares teste/numero.
+Os hashes de stdout foram conferidos contra os CSV originais antes da limpeza.
+Os registros textuais foram preservados; o tamanho historico do log da campanha esta identificado.
+O tamanho total deste arquivo consta na ultima linha.
+
+===== TESTE INICIAL: SESSAO ORIGINAL =====
+Script started on 2026-10-31 19:29:26-03:00 [COMMAND="sh registrar_etapa1.sh" <not executed on terminal>]
++ date --iso-8601=seconds
+2026-10-31T19:29:26-03:00
++ whoami
+helioblaster
++ pwd
+/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial
++ uname -srm
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
++ cc --version
+cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
++ make --version
+GNU Make 4.4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
++ sha256sum sync_car.c sync_car.h teste_etapa1.c Makefile
+3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348  sync_car.c
+6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da  sync_car.h
+fd7b86a277f0c7d2ac5e143f1fe4428ca0515baaba60d6a46e36b33a52d05d7a  teste_etapa1.c
+e542eba3cb8e6347cfc464d206b09c6ca83e18a59c760692a35bf3527d63e6f6  Makefile
++ make clean
+rm -f sync_car.o teste_etapa1
++ make test
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread sync_car.c teste_etapa1.c -o teste_etapa1
+./teste_etapa1
+PASS 1: duas estacoes inicializadas com contadores zerados
+PASS 2: estados independentes e mutex utilizavel
+PASS 3: condicoes inicializadas permitem espera e notificacao real
+PASS 4: recursos liberados apos o encerramento das threads
+ETAPA 1 APROVADA: 4 verificacoes; protocolo de embarque ainda nao testado
++ date --iso-8601=seconds
+2026-10-31T19:29:27-03:00
+
+Script done on 2026-10-31 19:29:27-03:00 [COMMAND_EXIT_CODE="0"]
+
+===== CAMPANHA: 4 CENARIOS, 20 EXECUCOES CADA =====
+CAMPANHA DA ETAPA 1 - LOG UNICO
+
+RESUMO FINAL DA CAMPANHA
+CONCLUIDA: 31/10/2026, apos o ultimo lote iniciado as 20:26 (America/Sao_Paulo).
+Quatro cenarios, 20 execucoes por cenario: 80/80 PASS, sem erros ou timeout.
+As saidas foram identicas dentro de cada cenario.
+A validacao cobre somente a etapa 1; o protocolo de embarque nao foi testado.
+
+# Comparação da campanha da etapa 1
+
+80/80 execuções registradas; todas aprovadas.
+
+| Teste | Execuções | Saídas distintas no cenário | Mínimo (ms) | Mediana (ms) | Máximo (ms) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 20/20 | 1 | 4.139 | 4.537 | 5.797 |
+| 2 | 20/20 | 1 | 11.292 | 12.169 | 13.615 |
+| 3 | 20/20 | 1 | 55.029 | 60.772 | 73.044 |
+| 4 | 20/20 | 1 | 5.655 | 6.784 | 10.369 |
+
+Nos cenários completos, os hashes dos fontes e do binário coincidem entre os dois lotes. As saídas são comparadas apenas dentro de cada cenário.
+
+Os tempos incluem criação do processo e captura de saída; não constituem benchmark. Aprovação desses cenários da etapa 1 não valida o protocolo de embarque.
+
+O arquivo principal para consulta é campanha_etapa1.log.
+
+FIM DO RESUMO FINAL
+
+Registro final consolidado. Os logs individuais originais foram preservados.
+EXECUCOES REGISTRADAS: 80/80 | PASS: 80 | OUTROS RESULTADOS: 0
+INTERVALO UTILIZADO NA AUTOMACAO: 5 minutos | LOTE: ate 10 execucoes | CAMPANHA ENCERRADA
+Duracoes incluem abertura do processo e captura da saida; nao sao benchmark.
+
+PROGRESSO POR TESTE
+Teste 1: 20/20 executadas; 20 PASS
+Teste 2: 20/20 executadas; 20 PASS
+Teste 3: 20/20 executadas; 20 PASS
+Teste 4: 20/20 executadas; 20 PASS
+
+COMPARACAO DAS EXECUCOES
+Teste | Execucao | Resultado | Exit | Timeout | Duracao_ms | Inicio
+1 | 1 | PASS | 0 | False | 4.139 | 2026-10-31T19:36:41.032-03:00
+1 | 2 | PASS | 0 | False | 5.008 | 2026-10-31T19:36:41.045-03:00
+1 | 3 | PASS | 0 | False | 4.762 | 2026-10-31T19:36:41.060-03:00
+1 | 4 | PASS | 0 | False | 4.929 | 2026-10-31T19:36:41.075-03:00
+1 | 5 | PASS | 0 | False | 4.501 | 2026-10-31T19:36:41.090-03:00
+1 | 6 | PASS | 0 | False | 5.797 | 2026-10-31T19:36:41.105-03:00
+1 | 7 | PASS | 0 | False | 4.715 | 2026-10-31T19:36:41.121-03:00
+1 | 8 | PASS | 0 | False | 4.317 | 2026-10-31T19:36:41.136-03:00
+1 | 9 | PASS | 0 | False | 4.253 | 2026-10-31T19:36:41.150-03:00
+1 | 10 | PASS | 0 | False | 4.336 | 2026-10-31T19:36:41.164-03:00
+1 | 11 | PASS | 0 | False | 4.698 | 2026-10-31T19:45:47.664-03:00
+1 | 12 | PASS | 0 | False | 4.572 | 2026-10-31T19:45:47.679-03:00
+1 | 13 | PASS | 0 | False | 4.791 | 2026-10-31T19:45:47.694-03:00
+1 | 14 | PASS | 0 | False | 5.523 | 2026-10-31T19:45:47.708-03:00
+1 | 15 | PASS | 0 | False | 4.415 | 2026-10-31T19:45:47.724-03:00
+1 | 16 | PASS | 0 | False | 4.358 | 2026-10-31T19:45:47.738-03:00
+1 | 17 | PASS | 0 | False | 4.462 | 2026-10-31T19:45:47.752-03:00
+1 | 18 | PASS | 0 | False | 4.845 | 2026-10-31T19:45:47.767-03:00
+1 | 19 | PASS | 0 | False | 4.174 | 2026-10-31T19:45:47.784-03:00
+1 | 20 | PASS | 0 | False | 4.499 | 2026-10-31T19:45:47.797-03:00
+2 | 1 | PASS | 0 | False | 12.545 | 2026-10-31T20:01:29.808-03:00
+2 | 2 | PASS | 0 | False | 13.192 | 2026-10-31T20:01:29.922-03:00
+2 | 3 | PASS | 0 | False | 12.479 | 2026-10-31T20:01:30.031-03:00
+2 | 4 | PASS | 0 | False | 12.392 | 2026-10-31T20:01:30.141-03:00
+2 | 5 | PASS | 0 | False | 12.235 | 2026-10-31T20:01:30.256-03:00
+2 | 6 | PASS | 0 | False | 11.737 | 2026-10-31T20:01:30.371-03:00
+2 | 7 | PASS | 0 | False | 13.097 | 2026-10-31T20:01:30.491-03:00
+2 | 8 | PASS | 0 | False | 13.150 | 2026-10-31T20:01:30.623-03:00
+2 | 9 | PASS | 0 | False | 12.879 | 2026-10-31T20:01:30.752-03:00
+2 | 10 | PASS | 0 | False | 11.678 | 2026-10-31T20:01:30.882-03:00
+2 | 11 | PASS | 0 | False | 11.292 | 2026-10-31T20:06:24.592-03:00
+2 | 12 | PASS | 0 | False | 13.615 | 2026-10-31T20:06:24.751-03:00
+2 | 13 | PASS | 0 | False | 11.965 | 2026-10-31T20:06:24.905-03:00
+2 | 14 | PASS | 0 | False | 12.572 | 2026-10-31T20:06:25.057-03:00
+2 | 15 | PASS | 0 | False | 11.402 | 2026-10-31T20:06:25.207-03:00
+2 | 16 | PASS | 0 | False | 11.910 | 2026-10-31T20:06:25.353-03:00
+2 | 17 | PASS | 0 | False | 11.861 | 2026-10-31T20:06:25.503-03:00
+2 | 18 | PASS | 0 | False | 12.103 | 2026-10-31T20:06:25.653-03:00
+2 | 19 | PASS | 0 | False | 11.757 | 2026-10-31T20:06:25.814-03:00
+2 | 20 | PASS | 0 | False | 11.903 | 2026-10-31T20:06:25.980-03:00
+3 | 1 | PASS | 0 | False | 60.938 | 2026-10-31T20:11:22.963-03:00
+3 | 2 | PASS | 0 | False | 59.624 | 2026-10-31T20:11:23.207-03:00
+3 | 3 | PASS | 0 | False | 63.060 | 2026-10-31T20:11:23.429-03:00
+3 | 4 | PASS | 0 | False | 62.159 | 2026-10-31T20:11:23.700-03:00
+3 | 5 | PASS | 0 | False | 61.694 | 2026-10-31T20:11:23.936-03:00
+3 | 6 | PASS | 0 | False | 57.673 | 2026-10-31T20:11:24.180-03:00
+3 | 7 | PASS | 0 | False | 55.635 | 2026-10-31T20:11:24.415-03:00
+3 | 8 | PASS | 0 | False | 59.208 | 2026-10-31T20:11:24.645-03:00
+3 | 9 | PASS | 0 | False | 59.634 | 2026-10-31T20:11:24.951-03:00
+3 | 10 | PASS | 0 | False | 62.318 | 2026-10-31T20:11:25.198-03:00
+3 | 11 | PASS | 0 | False | 58.025 | 2026-10-31T20:16:31.638-03:00
+3 | 12 | PASS | 0 | False | 60.605 | 2026-10-31T20:16:31.907-03:00
+3 | 13 | PASS | 0 | False | 62.621 | 2026-10-31T20:16:32.169-03:00
+3 | 14 | PASS | 0 | False | 61.157 | 2026-10-31T20:16:32.441-03:00
+3 | 15 | PASS | 0 | False | 56.528 | 2026-10-31T20:16:32.710-03:00
+3 | 16 | PASS | 0 | False | 58.003 | 2026-10-31T20:16:32.979-03:00
+3 | 17 | PASS | 0 | False | 61.794 | 2026-10-31T20:16:33.304-03:00
+3 | 18 | PASS | 0 | False | 63.400 | 2026-10-31T20:16:33.596-03:00
+3 | 19 | PASS | 0 | False | 55.029 | 2026-10-31T20:16:33.891-03:00
+3 | 20 | PASS | 0 | False | 73.044 | 2026-10-31T20:16:34.188-03:00
+4 | 1 | PASS | 0 | False | 6.998 | 2026-10-31T20:21:22.914-03:00
+4 | 2 | PASS | 0 | False | 7.520 | 2026-10-31T20:21:23.151-03:00
+4 | 3 | PASS | 0 | False | 6.677 | 2026-10-31T20:21:23.413-03:00
+4 | 4 | PASS | 0 | False | 7.085 | 2026-10-31T20:21:23.683-03:00
+4 | 5 | PASS | 0 | False | 7.177 | 2026-10-31T20:21:23.943-03:00
+4 | 6 | PASS | 0 | False | 5.655 | 2026-10-31T20:21:24.196-03:00
+4 | 7 | PASS | 0 | False | 6.677 | 2026-10-31T20:21:24.444-03:00
+4 | 8 | PASS | 0 | False | 6.563 | 2026-10-31T20:21:24.819-03:00
+4 | 9 | PASS | 0 | False | 10.369 | 2026-10-31T20:21:25.084-03:00
+4 | 10 | PASS | 0 | False | 6.892 | 2026-10-31T20:21:25.358-03:00
+4 | 11 | PASS | 0 | False | 5.807 | 2026-10-31T20:26:26.791-03:00
+4 | 12 | PASS | 0 | False | 6.599 | 2026-10-31T20:26:27.056-03:00
+4 | 13 | PASS | 0 | False | 6.890 | 2026-10-31T20:26:27.329-03:00
+4 | 14 | PASS | 0 | False | 6.383 | 2026-10-31T20:26:27.597-03:00
+4 | 15 | PASS | 0 | False | 7.169 | 2026-10-31T20:26:27.892-03:00
+4 | 16 | PASS | 0 | False | 7.685 | 2026-10-31T20:26:28.171-03:00
+4 | 17 | PASS | 0 | False | 6.260 | 2026-10-31T20:26:28.461-03:00
+4 | 18 | PASS | 0 | False | 6.396 | 2026-10-31T20:26:28.939-03:00
+4 | 19 | PASS | 0 | False | 7.228 | 2026-10-31T20:26:29.271-03:00
+4 | 20 | PASS | 0 | False | 6.666 | 2026-10-31T20:26:29.592-03:00
+
+===== lote_t1_01_a_10: COMPILACAO =====
+DATA: 2026-10-31T19:36:41.023-03:00
+COMANDO: make -B teste1
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste1.c -o teste1
+
+EXIT_CODE: 0
+
+
+===== TESTE 1 / EXECUCAO 1 =====
+INICIO: 2026-10-31T19:36:41.032-03:00
+COMANDO: ./teste1
+EXECUCAO: 1
+DURACAO_MS: 4.139
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 2 =====
+INICIO: 2026-10-31T19:36:41.045-03:00
+COMANDO: ./teste1
+EXECUCAO: 2
+DURACAO_MS: 5.008
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 3 =====
+INICIO: 2026-10-31T19:36:41.060-03:00
+COMANDO: ./teste1
+EXECUCAO: 3
+DURACAO_MS: 4.762
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 4 =====
+INICIO: 2026-10-31T19:36:41.075-03:00
+COMANDO: ./teste1
+EXECUCAO: 4
+DURACAO_MS: 4.929
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 5 =====
+INICIO: 2026-10-31T19:36:41.090-03:00
+COMANDO: ./teste1
+EXECUCAO: 5
+DURACAO_MS: 4.501
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 6 =====
+INICIO: 2026-10-31T19:36:41.105-03:00
+COMANDO: ./teste1
+EXECUCAO: 6
+DURACAO_MS: 5.797
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 7 =====
+INICIO: 2026-10-31T19:36:41.121-03:00
+COMANDO: ./teste1
+EXECUCAO: 7
+DURACAO_MS: 4.715
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 8 =====
+INICIO: 2026-10-31T19:36:41.136-03:00
+COMANDO: ./teste1
+EXECUCAO: 8
+DURACAO_MS: 4.317
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 9 =====
+INICIO: 2026-10-31T19:36:41.150-03:00
+COMANDO: ./teste1
+EXECUCAO: 9
+DURACAO_MS: 4.253
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 10 =====
+INICIO: 2026-10-31T19:36:41.164-03:00
+COMANDO: ./teste1
+EXECUCAO: 10
+DURACAO_MS: 4.336
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== lote_t1_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T19:36:40.476-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 1,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste1.c": "9e977bd8b2c9a95834353af904d251744b53a1ae0f2c90682cb6d145a4dae533",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "95023af97343b740911fb54b7d6221183b343ededf2739c7c79befcde2fb0793"
+  },
+  "binario_sha256": "c77b4a4856e0209aca897ff6a2a07b836d62f60f37df3f03c1722ff588d5d625",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T19:36:41.182-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t1_11_a_20: COMPILACAO =====
+DATA: 2026-10-31T19:45:47.655-03:00
+COMANDO: make -B teste1
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste1.c -o teste1
+
+EXIT_CODE: 0
+
+
+===== TESTE 1 / EXECUCAO 11 =====
+INICIO: 2026-10-31T19:45:47.664-03:00
+COMANDO: ./teste1
+EXECUCAO: 11
+DURACAO_MS: 4.698
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 12 =====
+INICIO: 2026-10-31T19:45:47.679-03:00
+COMANDO: ./teste1
+EXECUCAO: 12
+DURACAO_MS: 4.572
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 13 =====
+INICIO: 2026-10-31T19:45:47.694-03:00
+COMANDO: ./teste1
+EXECUCAO: 13
+DURACAO_MS: 4.791
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 14 =====
+INICIO: 2026-10-31T19:45:47.708-03:00
+COMANDO: ./teste1
+EXECUCAO: 14
+DURACAO_MS: 5.523
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 15 =====
+INICIO: 2026-10-31T19:45:47.724-03:00
+COMANDO: ./teste1
+EXECUCAO: 15
+DURACAO_MS: 4.415
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 16 =====
+INICIO: 2026-10-31T19:45:47.738-03:00
+COMANDO: ./teste1
+EXECUCAO: 16
+DURACAO_MS: 4.358
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 17 =====
+INICIO: 2026-10-31T19:45:47.752-03:00
+COMANDO: ./teste1
+EXECUCAO: 17
+DURACAO_MS: 4.462
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 18 =====
+INICIO: 2026-10-31T19:45:47.767-03:00
+COMANDO: ./teste1
+EXECUCAO: 18
+DURACAO_MS: 4.845
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 19 =====
+INICIO: 2026-10-31T19:45:47.784-03:00
+COMANDO: ./teste1
+EXECUCAO: 19
+DURACAO_MS: 4.174
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== TESTE 1 / EXECUCAO 20 =====
+INICIO: 2026-10-31T19:45:47.797-03:00
+COMANDO: ./teste1
+EXECUCAO: 20
+DURACAO_MS: 4.499
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 1: inicializacao de 64 estacoes com memoria nao zerada
+estacao=00 antes=(1,-100,900) depois=(0,0,0)
+estacao=01 antes=(2,-101,901) depois=(0,0,0)
+estacao=02 antes=(3,-102,902) depois=(0,0,0)
+estacao=03 antes=(4,-103,903) depois=(0,0,0)
+estacao=04 antes=(5,-104,904) depois=(0,0,0)
+estacao=05 antes=(6,-105,905) depois=(0,0,0)
+estacao=06 antes=(7,-106,906) depois=(0,0,0)
+estacao=07 antes=(8,-107,907) depois=(0,0,0)
+estacao=08 antes=(9,-108,908) depois=(0,0,0)
+estacao=09 antes=(10,-109,909) depois=(0,0,0)
+estacao=10 antes=(11,-110,910) depois=(0,0,0)
+estacao=11 antes=(12,-111,911) depois=(0,0,0)
+estacao=12 antes=(13,-112,912) depois=(0,0,0)
+estacao=13 antes=(14,-113,913) depois=(0,0,0)
+estacao=14 antes=(15,-114,914) depois=(0,0,0)
+estacao=15 antes=(16,-115,915) depois=(0,0,0)
+estacao=16 antes=(17,-116,916) depois=(0,0,0)
+estacao=17 antes=(18,-117,917) depois=(0,0,0)
+estacao=18 antes=(19,-118,918) depois=(0,0,0)
+estacao=19 antes=(20,-119,919) depois=(0,0,0)
+estacao=20 antes=(21,-120,920) depois=(0,0,0)
+estacao=21 antes=(22,-121,921) depois=(0,0,0)
+estacao=22 antes=(23,-122,922) depois=(0,0,0)
+estacao=23 antes=(24,-123,923) depois=(0,0,0)
+estacao=24 antes=(25,-124,924) depois=(0,0,0)
+estacao=25 antes=(26,-125,925) depois=(0,0,0)
+estacao=26 antes=(27,-126,926) depois=(0,0,0)
+estacao=27 antes=(28,-127,927) depois=(0,0,0)
+estacao=28 antes=(29,-128,928) depois=(0,0,0)
+estacao=29 antes=(30,-129,929) depois=(0,0,0)
+estacao=30 antes=(31,-130,930) depois=(0,0,0)
+estacao=31 antes=(32,-131,931) depois=(0,0,0)
+estacao=32 antes=(33,-132,932) depois=(0,0,0)
+estacao=33 antes=(34,-133,933) depois=(0,0,0)
+estacao=34 antes=(35,-134,934) depois=(0,0,0)
+estacao=35 antes=(36,-135,935) depois=(0,0,0)
+estacao=36 antes=(37,-136,936) depois=(0,0,0)
+estacao=37 antes=(38,-137,937) depois=(0,0,0)
+estacao=38 antes=(39,-138,938) depois=(0,0,0)
+estacao=39 antes=(40,-139,939) depois=(0,0,0)
+estacao=40 antes=(41,-140,940) depois=(0,0,0)
+estacao=41 antes=(42,-141,941) depois=(0,0,0)
+estacao=42 antes=(43,-142,942) depois=(0,0,0)
+estacao=43 antes=(44,-143,943) depois=(0,0,0)
+estacao=44 antes=(45,-144,944) depois=(0,0,0)
+estacao=45 antes=(46,-145,945) depois=(0,0,0)
+estacao=46 antes=(47,-146,946) depois=(0,0,0)
+estacao=47 antes=(48,-147,947) depois=(0,0,0)
+estacao=48 antes=(49,-148,948) depois=(0,0,0)
+estacao=49 antes=(50,-149,949) depois=(0,0,0)
+estacao=50 antes=(51,-150,950) depois=(0,0,0)
+estacao=51 antes=(52,-151,951) depois=(0,0,0)
+estacao=52 antes=(53,-152,952) depois=(0,0,0)
+estacao=53 antes=(54,-153,953) depois=(0,0,0)
+estacao=54 antes=(55,-154,954) depois=(0,0,0)
+estacao=55 antes=(56,-155,955) depois=(0,0,0)
+estacao=56 antes=(57,-156,956) depois=(0,0,0)
+estacao=57 antes=(58,-157,957) depois=(0,0,0)
+estacao=58 antes=(59,-158,958) depois=(0,0,0)
+estacao=59 antes=(60,-159,959) depois=(0,0,0)
+estacao=60 antes=(61,-160,960) depois=(0,0,0)
+estacao=61 antes=(62,-161,961) depois=(0,0,0)
+estacao=62 antes=(63,-162,962) depois=(0,0,0)
+estacao=63 antes=(64,-163,963) depois=(0,0,0)
+PASS teste=1 estacoes=64 contadores_zerados=192 independentes=63 recursos_liberados=64
+
+STDERR:
+
+
+===== lote_t1_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T19:45:47.158-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 1,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste1.c": "9e977bd8b2c9a95834353af904d251744b53a1ae0f2c90682cb6d145a4dae533",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "95023af97343b740911fb54b7d6221183b343ededf2739c7c79befcde2fb0793"
+  },
+  "binario_sha256": "c77b4a4856e0209aca897ff6a2a07b836d62f60f37df3f03c1722ff588d5d625",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T19:45:47.817-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t2_01_a_10: COMPILACAO =====
+DATA: 2026-10-31T20:01:29.664-03:00
+COMANDO: make -B teste2
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste2.c -o teste2
+
+EXIT_CODE: 0
+
+
+===== TESTE 2 / EXECUCAO 1 =====
+INICIO: 2026-10-31T20:01:29.808-03:00
+COMANDO: ./teste2
+EXECUCAO: 1
+DURACAO_MS: 12.545
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 2 =====
+INICIO: 2026-10-31T20:01:29.922-03:00
+COMANDO: ./teste2
+EXECUCAO: 2
+DURACAO_MS: 13.192
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 3 =====
+INICIO: 2026-10-31T20:01:30.031-03:00
+COMANDO: ./teste2
+EXECUCAO: 3
+DURACAO_MS: 12.479
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 4 =====
+INICIO: 2026-10-31T20:01:30.141-03:00
+COMANDO: ./teste2
+EXECUCAO: 4
+DURACAO_MS: 12.392
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 5 =====
+INICIO: 2026-10-31T20:01:30.256-03:00
+COMANDO: ./teste2
+EXECUCAO: 5
+DURACAO_MS: 12.235
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 6 =====
+INICIO: 2026-10-31T20:01:30.371-03:00
+COMANDO: ./teste2
+EXECUCAO: 6
+DURACAO_MS: 11.737
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 7 =====
+INICIO: 2026-10-31T20:01:30.491-03:00
+COMANDO: ./teste2
+EXECUCAO: 7
+DURACAO_MS: 13.097
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 8 =====
+INICIO: 2026-10-31T20:01:30.623-03:00
+COMANDO: ./teste2
+EXECUCAO: 8
+DURACAO_MS: 13.150
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 9 =====
+INICIO: 2026-10-31T20:01:30.752-03:00
+COMANDO: ./teste2
+EXECUCAO: 9
+DURACAO_MS: 12.879
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 10 =====
+INICIO: 2026-10-31T20:01:30.882-03:00
+COMANDO: ./teste2
+EXECUCAO: 10
+DURACAO_MS: 11.678
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== lote_t2_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:01:29.203-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 2,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste2.c": "d25c2ee754232e72d6191a8f00cf3e17fec7328977f602cedc084975cd3b7a93",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "e8791f4dbcb9d38268d0a76399b48e5127fe2ac020d544e854a5882498437175",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:01:31.015-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t2_11_a_20: COMPILACAO =====
+DATA: 2026-10-31T20:06:24.322-03:00
+COMANDO: make -B teste2
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste2.c -o teste2
+
+EXIT_CODE: 0
+
+
+===== TESTE 2 / EXECUCAO 11 =====
+INICIO: 2026-10-31T20:06:24.592-03:00
+COMANDO: ./teste2
+EXECUCAO: 11
+DURACAO_MS: 11.292
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 12 =====
+INICIO: 2026-10-31T20:06:24.751-03:00
+COMANDO: ./teste2
+EXECUCAO: 12
+DURACAO_MS: 13.615
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 13 =====
+INICIO: 2026-10-31T20:06:24.905-03:00
+COMANDO: ./teste2
+EXECUCAO: 13
+DURACAO_MS: 11.965
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 14 =====
+INICIO: 2026-10-31T20:06:25.057-03:00
+COMANDO: ./teste2
+EXECUCAO: 14
+DURACAO_MS: 12.572
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 15 =====
+INICIO: 2026-10-31T20:06:25.207-03:00
+COMANDO: ./teste2
+EXECUCAO: 15
+DURACAO_MS: 11.402
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 16 =====
+INICIO: 2026-10-31T20:06:25.353-03:00
+COMANDO: ./teste2
+EXECUCAO: 16
+DURACAO_MS: 11.910
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 17 =====
+INICIO: 2026-10-31T20:06:25.503-03:00
+COMANDO: ./teste2
+EXECUCAO: 17
+DURACAO_MS: 11.861
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 18 =====
+INICIO: 2026-10-31T20:06:25.653-03:00
+COMANDO: ./teste2
+EXECUCAO: 18
+DURACAO_MS: 12.103
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 19 =====
+INICIO: 2026-10-31T20:06:25.814-03:00
+COMANDO: ./teste2
+EXECUCAO: 19
+DURACAO_MS: 11.757
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== TESTE 2 / EXECUCAO 20 =====
+INICIO: 2026-10-31T20:06:25.980-03:00
+COMANDO: ./teste2
+EXECUCAO: 20
+DURACAO_MS: 11.903
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+TESTE 2: threads=8 incrementos_por_thread=50000 esperado=400000 observado=400000
+PASS teste=2 incrementos=400000 perdas=0
+
+STDERR:
+
+
+===== lote_t2_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:06:23.807-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 2,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste2.c": "d25c2ee754232e72d6191a8f00cf3e17fec7328977f602cedc084975cd3b7a93",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "e8791f4dbcb9d38268d0a76399b48e5127fe2ac020d544e854a5882498437175",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:06:26.154-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t3_01_a_10: COMPILACAO =====
+DATA: 2026-10-31T20:11:22.777-03:00
+COMANDO: make -B teste3
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste3.c -o teste3
+
+EXIT_CODE: 0
+
+
+===== TESTE 3 / EXECUCAO 1 =====
+INICIO: 2026-10-31T20:11:22.963-03:00
+COMANDO: ./teste3
+EXECUCAO: 1
+DURACAO_MS: 60.938
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 2 =====
+INICIO: 2026-10-31T20:11:23.207-03:00
+COMANDO: ./teste3
+EXECUCAO: 2
+DURACAO_MS: 59.624
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 3 =====
+INICIO: 2026-10-31T20:11:23.429-03:00
+COMANDO: ./teste3
+EXECUCAO: 3
+DURACAO_MS: 63.060
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 4 =====
+INICIO: 2026-10-31T20:11:23.700-03:00
+COMANDO: ./teste3
+EXECUCAO: 4
+DURACAO_MS: 62.159
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 5 =====
+INICIO: 2026-10-31T20:11:23.936-03:00
+COMANDO: ./teste3
+EXECUCAO: 5
+DURACAO_MS: 61.694
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 6 =====
+INICIO: 2026-10-31T20:11:24.180-03:00
+COMANDO: ./teste3
+EXECUCAO: 6
+DURACAO_MS: 57.673
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 7 =====
+INICIO: 2026-10-31T20:11:24.415-03:00
+COMANDO: ./teste3
+EXECUCAO: 7
+DURACAO_MS: 55.635
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 8 =====
+INICIO: 2026-10-31T20:11:24.645-03:00
+COMANDO: ./teste3
+EXECUCAO: 8
+DURACAO_MS: 59.208
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 9 =====
+INICIO: 2026-10-31T20:11:24.951-03:00
+COMANDO: ./teste3
+EXECUCAO: 9
+DURACAO_MS: 59.634
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 10 =====
+INICIO: 2026-10-31T20:11:25.198-03:00
+COMANDO: ./teste3
+EXECUCAO: 10
+DURACAO_MS: 62.318
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== lote_t3_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:11:22.326-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 3,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste3.c": "993dd020d15c2affc527aa9a9bfa710b02525cef41a881133a0c679ebef50a06",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "b78dd37cc36101c25b126c488b6bcfb47d6f2e2edeeaba7b0210cb36f0c73676",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:11:25.458-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t3_11_a_20: COMPILACAO =====
+DATA: 2026-10-31T20:16:31.403-03:00
+COMANDO: make -B teste3
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste3.c -o teste3
+
+EXIT_CODE: 0
+
+
+===== TESTE 3 / EXECUCAO 11 =====
+INICIO: 2026-10-31T20:16:31.638-03:00
+COMANDO: ./teste3
+EXECUCAO: 11
+DURACAO_MS: 58.025
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 12 =====
+INICIO: 2026-10-31T20:16:31.907-03:00
+COMANDO: ./teste3
+EXECUCAO: 12
+DURACAO_MS: 60.605
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 13 =====
+INICIO: 2026-10-31T20:16:32.169-03:00
+COMANDO: ./teste3
+EXECUCAO: 13
+DURACAO_MS: 62.621
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 14 =====
+INICIO: 2026-10-31T20:16:32.441-03:00
+COMANDO: ./teste3
+EXECUCAO: 14
+DURACAO_MS: 61.157
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 15 =====
+INICIO: 2026-10-31T20:16:32.710-03:00
+COMANDO: ./teste3
+EXECUCAO: 15
+DURACAO_MS: 56.528
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 16 =====
+INICIO: 2026-10-31T20:16:32.979-03:00
+COMANDO: ./teste3
+EXECUCAO: 16
+DURACAO_MS: 58.003
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 17 =====
+INICIO: 2026-10-31T20:16:33.304-03:00
+COMANDO: ./teste3
+EXECUCAO: 17
+DURACAO_MS: 61.794
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 18 =====
+INICIO: 2026-10-31T20:16:33.596-03:00
+COMANDO: ./teste3
+EXECUCAO: 18
+DURACAO_MS: 63.400
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 19 =====
+INICIO: 2026-10-31T20:16:33.891-03:00
+COMANDO: ./teste3
+EXECUCAO: 19
+DURACAO_MS: 55.029
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== TESTE 3 / EXECUCAO 20 =====
+INICIO: 2026-10-31T20:16:34.188-03:00
+COMANDO: ./teste3
+EXECUCAO: 20
+DURACAO_MS: 73.044
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+rodada=100 enviada=100 confirmada=100
+rodada=200 enviada=200 confirmada=200
+rodada=300 enviada=300 confirmada=300
+rodada=400 enviada=400 confirmada=400
+rodada=500 enviada=500 confirmada=500
+rodada=600 enviada=600 confirmada=600
+rodada=700 enviada=700 confirmada=700
+rodada=800 enviada=800 confirmada=800
+rodada=900 enviada=900 confirmada=900
+rodada=1000 enviada=1000 confirmada=1000
+PASS teste=3 trocas=1000 confirmacoes=1000
+
+STDERR:
+
+
+===== lote_t3_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:16:30.948-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 3,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste3.c": "993dd020d15c2affc527aa9a9bfa710b02525cef41a881133a0c679ebef50a06",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "b78dd37cc36101c25b126c488b6bcfb47d6f2e2edeeaba7b0210cb36f0c73676",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:16:34.562-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t4_01_a_10: COMPILACAO =====
+DATA: 2026-10-31T20:21:22.660-03:00
+COMANDO: make -B teste4
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste4.c -o teste4
+
+EXIT_CODE: 0
+
+
+===== TESTE 4 / EXECUCAO 1 =====
+INICIO: 2026-10-31T20:21:22.914-03:00
+COMANDO: ./teste4
+EXECUCAO: 1
+DURACAO_MS: 6.998
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 2 =====
+INICIO: 2026-10-31T20:21:23.151-03:00
+COMANDO: ./teste4
+EXECUCAO: 2
+DURACAO_MS: 7.520
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 3 =====
+INICIO: 2026-10-31T20:21:23.413-03:00
+COMANDO: ./teste4
+EXECUCAO: 3
+DURACAO_MS: 6.677
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 4 =====
+INICIO: 2026-10-31T20:21:23.683-03:00
+COMANDO: ./teste4
+EXECUCAO: 4
+DURACAO_MS: 7.085
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 5 =====
+INICIO: 2026-10-31T20:21:23.943-03:00
+COMANDO: ./teste4
+EXECUCAO: 5
+DURACAO_MS: 7.177
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 6 =====
+INICIO: 2026-10-31T20:21:24.196-03:00
+COMANDO: ./teste4
+EXECUCAO: 6
+DURACAO_MS: 5.655
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 7 =====
+INICIO: 2026-10-31T20:21:24.444-03:00
+COMANDO: ./teste4
+EXECUCAO: 7
+DURACAO_MS: 6.677
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 8 =====
+INICIO: 2026-10-31T20:21:24.819-03:00
+COMANDO: ./teste4
+EXECUCAO: 8
+DURACAO_MS: 6.563
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 9 =====
+INICIO: 2026-10-31T20:21:25.084-03:00
+COMANDO: ./teste4
+EXECUCAO: 9
+DURACAO_MS: 10.369
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 10 =====
+INICIO: 2026-10-31T20:21:25.358-03:00
+COMANDO: ./teste4
+EXECUCAO: 10
+DURACAO_MS: 6.892
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== lote_t4_01_a_10: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:21:22.195-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 4,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste4.c": "82f86d905586a779769d46ce14d4a478c91dce62c85e58fe4978ace51e557ef5",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "fff780ed7ca30f10b191407ab0631124f8590ffa14b4809fc217ab73c4efacf1",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:21:25.650-03:00",
+  "execucoes_realizadas": 10
+}
+
+===== lote_t4_11_a_20: COMPILACAO =====
+DATA: 2026-10-31T20:26:26.503-03:00
+COMANDO: make -B teste4
+cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread ../sync_car.c teste4.c -o teste4
+
+EXIT_CODE: 0
+
+
+===== TESTE 4 / EXECUCAO 11 =====
+INICIO: 2026-10-31T20:26:26.791-03:00
+COMANDO: ./teste4
+EXECUCAO: 11
+DURACAO_MS: 5.807
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 12 =====
+INICIO: 2026-10-31T20:26:27.056-03:00
+COMANDO: ./teste4
+EXECUCAO: 12
+DURACAO_MS: 6.599
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 13 =====
+INICIO: 2026-10-31T20:26:27.329-03:00
+COMANDO: ./teste4
+EXECUCAO: 13
+DURACAO_MS: 6.890
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 14 =====
+INICIO: 2026-10-31T20:26:27.597-03:00
+COMANDO: ./teste4
+EXECUCAO: 14
+DURACAO_MS: 6.383
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 15 =====
+INICIO: 2026-10-31T20:26:27.892-03:00
+COMANDO: ./teste4
+EXECUCAO: 15
+DURACAO_MS: 7.169
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 16 =====
+INICIO: 2026-10-31T20:26:28.171-03:00
+COMANDO: ./teste4
+EXECUCAO: 16
+DURACAO_MS: 7.685
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 17 =====
+INICIO: 2026-10-31T20:26:28.461-03:00
+COMANDO: ./teste4
+EXECUCAO: 17
+DURACAO_MS: 6.260
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 18 =====
+INICIO: 2026-10-31T20:26:28.939-03:00
+COMANDO: ./teste4
+EXECUCAO: 18
+DURACAO_MS: 6.396
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 19 =====
+INICIO: 2026-10-31T20:26:29.271-03:00
+COMANDO: ./teste4
+EXECUCAO: 19
+DURACAO_MS: 7.228
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== TESTE 4 / EXECUCAO 20 =====
+INICIO: 2026-10-31T20:26:29.592-03:00
+COMANDO: ./teste4
+EXECUCAO: 20
+DURACAO_MS: 6.666
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+
+STDOUT:
+apos_broadcast_A liberados_A=16 liberados_B=0
+PASS teste=4 liberados_A=16 liberados_B=16 interferencia=0
+
+STDERR:
+
+
+===== lote_t4_11_a_20: AMBIENTE E HASHES =====
+{
+  "inicio": "2026-10-31T20:26:26.062-03:00",
+  "usuario": "helioblaster",
+  "diretorio": "/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/01_estado_inicial/testes_repetidos",
+  "sistema": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "teste": 4,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "timeout_segundos": 10,
+  "sha256": {
+    "sync_car.c": "3e0f887970fc987580ce3fcd52646d2aedb9996275bec2d9f16dd2d5ed907348",
+    "sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "testes_repetidos/apoio.h": "6117a7b971bfcc28a0651ecf66d92963e5f45f31a0d29b1c6902b1d09e34b0d1",
+    "testes_repetidos/teste4.c": "82f86d905586a779769d46ce14d4a478c91dce62c85e58fe4978ace51e557ef5",
+    "testes_repetidos/Makefile": "188e3864edb94f02aebc62483acc570966fcb751109c38c601f6f756f177c287",
+    "testes_repetidos/rodar_lote.py": "ede50450b368e42b3d3d1bd9d0504f0d16c625d22068a34a828eb204d7fcd0c5",
+    "testes_repetidos/atualizar_log.py": "acaf47793d165ba4281cc210f67fe864001e6a7f0963b4a0b9172e3451cea14c"
+  },
+  "binario_sha256": "fff780ed7ca30f10b191407ab0631124f8590ffa14b4809fc217ab73c4efacf1",
+  "compilador": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "fim": "2026-10-31T20:26:29.906-03:00",
+  "execucoes_realizadas": 10
+}
+
+TAMANHO HISTORICO DO LOG DA CAMPANHA: 109013 bytes | 109.01 KB | 106.46 KiB
+
+TAMANHO TOTAL DE evidencias.log: 111737 bytes | 111.74 KB | 109.12 KiB
