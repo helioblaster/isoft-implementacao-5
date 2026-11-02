@@ -1,5 +1,4 @@
-EVIDENCIAS CONSOLIDADAS - ETAPAS 1 E 2
-Gerado em 2026-11-01 14:06:48
+EVIDENCIAS CONSOLIDADAS - ETAPAS 1, 2 E 3
 
 ===== INICIO DA ETAPA 1 =====
 EVIDENCIAS DA ETAPA 1 - hmrn
@@ -3181,7 +3180,6 @@ STDERR:
 TAMANHO HISTORICO DO LOG DA CAMPANHA: 109013 bytes | 109.01 KB | 106.46 KiB
 
 TAMANHO TOTAL DE evidencias.log: 111737 bytes | 111.74 KB | 109.12 KiB
-
 ===== FIM DA ETAPA 1 =====
 
 ===== INICIO DA ETAPA 2 =====
@@ -5180,5 +5178,1049 @@ STDERR:
 }
 
 TAMANHO DESTE LOG: 64780 bytes | 64.78 KB | 63.26 KiB
-
 ===== FIM DA ETAPA 2 =====
+
+===== INICIO DA ETAPA 3 =====
+CAMPANHA DE TESTES DA ETAPA 3: RESERVA DE ASSENTOS
+Quatro cenarios, 20 execucoes por cenario, 80 ao todo.
+
+===== LOTE TESTE 1 / 01-10 =====
+{
+  "teste": 1,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T12:33:47.586275",
+  "binario_sha256": "062eb043ffb48e9d5cb4ecefdbd7ad76e2603f15b3a50cd273b3e0cdd4f42751",
+  "fim": "2026-11-02T12:33:48.146881",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
+EXIT_CODE: 0
+
+===== TESTE 1 / EXECUCAO 01 =====
+INICIO: 2026-11-02T12:33:47.626924
+DURACAO_MS_INCLUINDO_PROCESSO: 8.866
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 02 =====
+INICIO: 2026-11-02T12:33:47.662681
+DURACAO_MS_INCLUINDO_PROCESSO: 8.641
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 03 =====
+INICIO: 2026-11-02T12:33:47.701497
+DURACAO_MS_INCLUINDO_PROCESSO: 8.325
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 04 =====
+INICIO: 2026-11-02T12:33:47.743593
+DURACAO_MS_INCLUINDO_PROCESSO: 9.053
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 05 =====
+INICIO: 2026-11-02T12:33:47.791904
+DURACAO_MS_INCLUINDO_PROCESSO: 8.557
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 06 =====
+INICIO: 2026-11-02T12:33:47.847322
+DURACAO_MS_INCLUINDO_PROCESSO: 8.609
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 07 =====
+INICIO: 2026-11-02T12:33:47.900325
+DURACAO_MS_INCLUINDO_PROCESSO: 9.592
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 08 =====
+INICIO: 2026-11-02T12:33:47.960703
+DURACAO_MS_INCLUINDO_PROCESSO: 8.981
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 09 =====
+INICIO: 2026-11-02T12:33:48.022300
+DURACAO_MS_INCLUINDO_PROCESSO: 9.273
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 10 =====
+INICIO: 2026-11-02T12:33:48.084721
+DURACAO_MS_INCLUINDO_PROCESSO: 8.335
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 1 / 11-20 =====
+{
+  "teste": 1,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T12:44:40.688748",
+  "binario_sha256": "062eb043ffb48e9d5cb4ecefdbd7ad76e2603f15b3a50cd273b3e0cdd4f42751",
+  "fim": "2026-11-02T12:44:41.670031",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
+EXIT_CODE: 0
+
+===== TESTE 1 / EXECUCAO 11 =====
+INICIO: 2026-11-02T12:44:40.764728
+DURACAO_MS_INCLUINDO_PROCESSO: 7.757
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 12 =====
+INICIO: 2026-11-02T12:44:40.840262
+DURACAO_MS_INCLUINDO_PROCESSO: 8.530
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 13 =====
+INICIO: 2026-11-02T12:44:40.918498
+DURACAO_MS_INCLUINDO_PROCESSO: 7.717
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 14 =====
+INICIO: 2026-11-02T12:44:41.001271
+DURACAO_MS_INCLUINDO_PROCESSO: 8.657
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 15 =====
+INICIO: 2026-11-02T12:44:41.086745
+DURACAO_MS_INCLUINDO_PROCESSO: 8.262
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 16 =====
+INICIO: 2026-11-02T12:44:41.175270
+DURACAO_MS_INCLUINDO_PROCESSO: 7.638
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 17 =====
+INICIO: 2026-11-02T12:44:41.268631
+DURACAO_MS_INCLUINDO_PROCESSO: 7.998
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 18 =====
+INICIO: 2026-11-02T12:44:41.371851
+DURACAO_MS_INCLUINDO_PROCESSO: 11.515
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 19 =====
+INICIO: 2026-11-02T12:44:41.470117
+DURACAO_MS_INCLUINDO_PROCESSO: 8.057
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 1 / EXECUCAO 20 =====
+INICIO: 2026-11-02T12:44:41.570074
+DURACAO_MS_INCLUINDO_PROCESSO: 8.008
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=1 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 2 / 01-10 =====
+{
+  "teste": 2,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T12:49:33.299604",
+  "binario_sha256": "449b5f91df117e529c1c3433fb9905885ced3a13f406e4400fd8cc66bcde131f",
+  "fim": "2026-11-02T12:49:34.794058",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
+EXIT_CODE: 0
+
+===== TESTE 2 / EXECUCAO 01 =====
+INICIO: 2026-11-02T12:49:33.427494
+DURACAO_MS_INCLUINDO_PROCESSO: 13.046
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 02 =====
+INICIO: 2026-11-02T12:49:33.555855
+DURACAO_MS_INCLUINDO_PROCESSO: 11.186
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 03 =====
+INICIO: 2026-11-02T12:49:33.680533
+DURACAO_MS_INCLUINDO_PROCESSO: 10.946
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 04 =====
+INICIO: 2026-11-02T12:49:33.811783
+DURACAO_MS_INCLUINDO_PROCESSO: 11.887
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 05 =====
+INICIO: 2026-11-02T12:49:33.943357
+DURACAO_MS_INCLUINDO_PROCESSO: 11.510
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 06 =====
+INICIO: 2026-11-02T12:49:34.077579
+DURACAO_MS_INCLUINDO_PROCESSO: 10.131
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 07 =====
+INICIO: 2026-11-02T12:49:34.215150
+DURACAO_MS_INCLUINDO_PROCESSO: 11.434
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 08 =====
+INICIO: 2026-11-02T12:49:34.359182
+DURACAO_MS_INCLUINDO_PROCESSO: 10.770
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 09 =====
+INICIO: 2026-11-02T12:49:34.503687
+DURACAO_MS_INCLUINDO_PROCESSO: 11.324
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 10 =====
+INICIO: 2026-11-02T12:49:34.650859
+DURACAO_MS_INCLUINDO_PROCESSO: 11.888
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 2 / 11-20 =====
+{
+  "teste": 2,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T12:54:32.413369",
+  "binario_sha256": "449b5f91df117e529c1c3433fb9905885ced3a13f406e4400fd8cc66bcde131f",
+  "fim": "2026-11-02T12:54:34.541498",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
+EXIT_CODE: 0
+
+===== TESTE 2 / EXECUCAO 11 =====
+INICIO: 2026-11-02T12:54:32.598344
+DURACAO_MS_INCLUINDO_PROCESSO: 11.484
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 12 =====
+INICIO: 2026-11-02T12:54:32.790941
+DURACAO_MS_INCLUINDO_PROCESSO: 11.011
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 13 =====
+INICIO: 2026-11-02T12:54:32.973397
+DURACAO_MS_INCLUINDO_PROCESSO: 11.054
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 14 =====
+INICIO: 2026-11-02T12:54:33.161772
+DURACAO_MS_INCLUINDO_PROCESSO: 10.672
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 15 =====
+INICIO: 2026-11-02T12:54:33.350295
+DURACAO_MS_INCLUINDO_PROCESSO: 10.688
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 16 =====
+INICIO: 2026-11-02T12:54:33.544518
+DURACAO_MS_INCLUINDO_PROCESSO: 10.681
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 17 =====
+INICIO: 2026-11-02T12:54:33.749810
+DURACAO_MS_INCLUINDO_PROCESSO: 11.140
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 18 =====
+INICIO: 2026-11-02T12:54:33.960129
+DURACAO_MS_INCLUINDO_PROCESSO: 11.003
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 19 =====
+INICIO: 2026-11-02T12:54:34.156554
+DURACAO_MS_INCLUINDO_PROCESSO: 11.743
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 2 / EXECUCAO 20 =====
+INICIO: 2026-11-02T12:54:34.355366
+DURACAO_MS_INCLUINDO_PROCESSO: 10.771
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=2 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 3 / 01-10 =====
+{
+  "teste": 3,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T12:59:38.701857",
+  "binario_sha256": "984f379fdc8f5446ec66f965227221e7b636f7a97688d8a35c5eb29d17ab6258",
+  "fim": "2026-11-02T12:59:41.752441",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
+EXIT_CODE: 0
+
+===== TESTE 3 / EXECUCAO 01 =====
+INICIO: 2026-11-02T12:59:38.951055
+DURACAO_MS_INCLUINDO_PROCESSO: 8.500
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 02 =====
+INICIO: 2026-11-02T12:59:39.192043
+DURACAO_MS_INCLUINDO_PROCESSO: 8.867
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 03 =====
+INICIO: 2026-11-02T12:59:39.425549
+DURACAO_MS_INCLUINDO_PROCESSO: 8.918
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 04 =====
+INICIO: 2026-11-02T12:59:39.739994
+DURACAO_MS_INCLUINDO_PROCESSO: 8.839
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 05 =====
+INICIO: 2026-11-02T12:59:39.996335
+DURACAO_MS_INCLUINDO_PROCESSO: 9.930
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 06 =====
+INICIO: 2026-11-02T12:59:40.265727
+DURACAO_MS_INCLUINDO_PROCESSO: 8.221
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 07 =====
+INICIO: 2026-11-02T12:59:40.554296
+DURACAO_MS_INCLUINDO_PROCESSO: 9.659
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 08 =====
+INICIO: 2026-11-02T12:59:40.929673
+DURACAO_MS_INCLUINDO_PROCESSO: 9.126
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 09 =====
+INICIO: 2026-11-02T12:59:41.224310
+DURACAO_MS_INCLUINDO_PROCESSO: 38.691
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 10 =====
+INICIO: 2026-11-02T12:59:41.493679
+DURACAO_MS_INCLUINDO_PROCESSO: 9.295
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 3 / 11-20 =====
+{
+  "teste": 3,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T13:04:35.896259",
+  "binario_sha256": "984f379fdc8f5446ec66f965227221e7b636f7a97688d8a35c5eb29d17ab6258",
+  "fim": "2026-11-02T13:04:39.384404",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
+EXIT_CODE: 0
+
+===== TESTE 3 / EXECUCAO 11 =====
+INICIO: 2026-11-02T13:04:36.197427
+DURACAO_MS_INCLUINDO_PROCESSO: 7.835
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 12 =====
+INICIO: 2026-11-02T13:04:36.483578
+DURACAO_MS_INCLUINDO_PROCESSO: 8.687
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 13 =====
+INICIO: 2026-11-02T13:04:36.800952
+DURACAO_MS_INCLUINDO_PROCESSO: 8.937
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 14 =====
+INICIO: 2026-11-02T13:04:37.155064
+DURACAO_MS_INCLUINDO_PROCESSO: 9.739
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 15 =====
+INICIO: 2026-11-02T13:04:37.497897
+DURACAO_MS_INCLUINDO_PROCESSO: 10.205
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 16 =====
+INICIO: 2026-11-02T13:04:37.812188
+DURACAO_MS_INCLUINDO_PROCESSO: 9.202
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 17 =====
+INICIO: 2026-11-02T13:04:38.126005
+DURACAO_MS_INCLUINDO_PROCESSO: 9.904
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 18 =====
+INICIO: 2026-11-02T13:04:38.450106
+DURACAO_MS_INCLUINDO_PROCESSO: 8.507
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 19 =====
+INICIO: 2026-11-02T13:04:38.754534
+DURACAO_MS_INCLUINDO_PROCESSO: 8.803
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 3 / EXECUCAO 20 =====
+INICIO: 2026-11-02T13:04:39.065564
+DURACAO_MS_INCLUINDO_PROCESSO: 8.541
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=3 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 4 / 01-10 =====
+{
+  "teste": 4,
+  "primeira_execucao": 1,
+  "ultima_execucao": 10,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T13:09:36.206911",
+  "binario_sha256": "bfc897028494e20b1844ef2ccd1d71c4d1a98291dc0014dc136cf78414da68c5",
+  "fim": "2026-11-02T13:09:40.260277",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
+EXIT_CODE: 0
+
+===== TESTE 4 / EXECUCAO 01 =====
+INICIO: 2026-11-02T13:09:36.580703
+DURACAO_MS_INCLUINDO_PROCESSO: 12.482
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 02 =====
+INICIO: 2026-11-02T13:09:36.950535
+DURACAO_MS_INCLUINDO_PROCESSO: 12.429
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 03 =====
+INICIO: 2026-11-02T13:09:37.322026
+DURACAO_MS_INCLUINDO_PROCESSO: 12.415
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 04 =====
+INICIO: 2026-11-02T13:09:37.688055
+DURACAO_MS_INCLUINDO_PROCESSO: 12.950
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 05 =====
+INICIO: 2026-11-02T13:09:38.062966
+DURACAO_MS_INCLUINDO_PROCESSO: 12.818
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 06 =====
+INICIO: 2026-11-02T13:09:38.428555
+DURACAO_MS_INCLUINDO_PROCESSO: 11.777
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 07 =====
+INICIO: 2026-11-02T13:09:38.806112
+DURACAO_MS_INCLUINDO_PROCESSO: 11.817
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 08 =====
+INICIO: 2026-11-02T13:09:39.171774
+DURACAO_MS_INCLUINDO_PROCESSO: 11.567
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 09 =====
+INICIO: 2026-11-02T13:09:39.528249
+DURACAO_MS_INCLUINDO_PROCESSO: 12.069
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 10 =====
+INICIO: 2026-11-02T13:09:39.897534
+DURACAO_MS_INCLUINDO_PROCESSO: 12.120
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+
+===== LOTE TESTE 4 / 11-20 =====
+{
+  "teste": 4,
+  "primeira_execucao": 11,
+  "ultima_execucao": 20,
+  "sha256": {
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c": "84763b1b33a32be547a91a9a19dd0de4747cb17058828400bc51c6478ff96ece",
+    "outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.h": "6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da",
+    "work/campanha_etapa3/cenarios.c": "223164824396d9206dc3d4327249e9715c7dd7c1885850346469e21ffe0fbe0d"
+  },
+  "inicio": "2026-11-02T13:14:32.760628",
+  "binario_sha256": "bfc897028494e20b1844ef2ccd1d71c4d1a98291dc0014dc136cf78414da68c5",
+  "fim": "2026-11-02T13:14:36.540879",
+  "execucoes_realizadas": 10
+}
+COMANDO: cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
+EXIT_CODE: 0
+
+===== TESTE 4 / EXECUCAO 11 =====
+INICIO: 2026-11-02T13:14:33.107837
+DURACAO_MS_INCLUINDO_PROCESSO: 10.720
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 12 =====
+INICIO: 2026-11-02T13:14:33.450721
+DURACAO_MS_INCLUINDO_PROCESSO: 10.720
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 13 =====
+INICIO: 2026-11-02T13:14:33.789025
+DURACAO_MS_INCLUINDO_PROCESSO: 11.333
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 14 =====
+INICIO: 2026-11-02T13:14:34.111603
+DURACAO_MS_INCLUINDO_PROCESSO: 10.868
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 15 =====
+INICIO: 2026-11-02T13:14:34.440867
+DURACAO_MS_INCLUINDO_PROCESSO: 12.052
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 16 =====
+INICIO: 2026-11-02T13:14:34.797479
+DURACAO_MS_INCLUINDO_PROCESSO: 10.541
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 17 =====
+INICIO: 2026-11-02T13:14:35.138012
+DURACAO_MS_INCLUINDO_PROCESSO: 10.681
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 18 =====
+INICIO: 2026-11-02T13:14:35.490569
+DURACAO_MS_INCLUINDO_PROCESSO: 11.209
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 19 =====
+INICIO: 2026-11-02T13:14:35.837337
+DURACAO_MS_INCLUINDO_PROCESSO: 11.356
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+===== TESTE 4 / EXECUCAO 20 =====
+INICIO: 2026-11-02T13:14:36.190209
+DURACAO_MS_INCLUINDO_PROCESSO: 11.317
+EXIT_CODE: 0
+TIMEOUT: False
+RESULTADO: PASS
+STDOUT:
+PASS teste=4 reserva sem excesso de vagas
+
+STDERR:
+
+
+PROGRESSO: 80/80 execucoes.
+
+RESUMO FINAL: 80/80 execucoes aprovadas; quatro cenarios com 20/20 cada. Em cada cenario, os dois lotes tiveram a mesma saida padrao e o mesmo hash do binario. Os tempos incluem abertura do processo e nao representam benchmark da operacao. A confirmacao de embarque foi simulada pelo teste; station_on_board segue incompleta nesta etapa.
+TAMANHO DESTE LOG: 27902 bytes; 27.90 KB; 27.25 KiB.
+===== FIM DA ETAPA 3 =====
+
+RESUMO: 80/80 execucoes por etapa; 240/240 execucoes registradas.
+TAMANHO DESTE LOG: 204758 bytes; 204.76 KB; 199.96 KiB.
