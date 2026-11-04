@@ -15,4 +15,11 @@ test: teste_etapa1
 	./teste_etapa1
 
 clean:
-	rm -f sync_car.o teste_etapa1
+	rm -f sync_car.o teste_etapa1 testes
+
+.PHONY: test-integracao
+testes: sync_car.c sync_car.h testes.c
+	$(CC) $(CFLAGS) $(THREAD_FLAGS) sync_car.c testes.c -o $@
+
+test-integracao: testes
+	./testes

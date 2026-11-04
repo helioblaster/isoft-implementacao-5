@@ -1,14 +1,16 @@
-# Etapa 5: casos limite
+# Etapa 6: experimento de bloqueio
 
-Definir o comportamento para zero vagas e contagens negativas.
+Esta pasta contém temporariamente uma variante com defeito intencional para estudo. Em `sync_car.c`, a chegada do carro usa `pthread_cond_signal` para a condição dos passageiros. A versão anterior está preservada em `work/estudo_etapa6/sync_car_original_antes_experimento.c`. Não use esta variante como implementação final.
+
+Especificar verificações do protocolo e compará-las com variantes de estudo.
 
 ## Construção da lógica
 
-station_load_car retorna imediatamente para count <= 0. Contagem negativa é tratada como zero por decisão defensiva. A saída sempre zera as vagas, evitando reservas depois da partida.
+testes.c controla as confirmações para exigir que várias reservas ocorram antes de qualquer confirmação. Também cobre sobra e falta de vagas, dois vagões, estações independentes e contagem negativa.
 
 ## Limite desta etapa
 
-A API pressupõe uma inicialização, um carro por vez e uma confirmação por reserva. Não há validação de ponteiros nulos, garantia FIFO ou tratamento de falhas de criação dos recursos pthread.
+A suíte foi compilada e executada a partir de `work/estudo_etapa6`: os quatro casos passaram com a implementação original antes da troca. A campanha do defeito intencional terminou com 80/80 observações esperadas: 20/20 sem bloqueio no controle e 20/20 bloqueios reproduzidos em cada um dos três cenários com várias vagas. A referência original não apresentou bloqueio nos oito lotes. `evidencias.log` contém somente os comandos, as saídas e os horários originais das 80 execuções no formato do log bruto fornecido como exemplo. Uma sessão posterior capturada integralmente com `script` foi preservada em `work/campanha_etapa6/evidencias_sessao_nova_80.log`, fora da linha do tempo original. O amostrador da fila dorme 1 ms entre leituras apenas no teste; a implementação da estação usa condições, sem polling.
 
 ## Arquivos e comandos
 
@@ -19,6 +21,6 @@ make clean
 make
 ```
 
-A campanha específica desta etapa foi concluída: quatro cenários com 20 execuções cada, em lotes de 10 a cada 7 minutos e 15 segundos. Todas as 80 execuções passaram, sem falha ou timeout. Os cenários incluem contagem zero, negativa, vagas sobrando e embarque em duas ondas. Em cada cenário, os dois lotes tiveram a mesma saída e o mesmo hash do binário. O resumo e as saídas estão em `evidencias.log`; os auxiliares ficam em `work/campanha_etapas4_5`. O alvo `make test` verifica somente a inicialização.
+`make test` verifica somente a inicialização. O alvo `make test-integracao` usa a variante com defeito e pode terminar por timeout. Para reproduzir os resultados controlados, use o executor em `work/campanha_etapa6`. As demais variantes e testes específicos de estudo estão em `work/estudo_etapa6`.
 
 Os arquivos `.c` e `.h` não contêm comentários. As explicações ficam neste README.
