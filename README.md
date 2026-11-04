@@ -1,26 +1,24 @@
-# Etapa 3: reserva de assentos
+# Etapa 5: casos limite
 
-Impedir que dois passageiros ocupem a mesma vaga.
+Definir o comportamento para zero vagas e contagens negativas.
 
 ## Construção da lógica
 
-A chegada publica free_seats e acorda os passageiros. Cada reserva decrementa waiting e free_seats e incrementa boarding, na mesma seção crítica. O vagão espera pela condição boarding_done.
+station_load_car retorna imediatamente para count <= 0. Contagem negativa é tratada como zero por decisão defensiva. A saída sempre zera as vagas, evitando reservas depois da partida.
 
 ## Limite desta etapa
 
-station_on_board ainda termina com abort(). Um embarque real não termina nesta etapa: falta confirmar os assentos ocupados.
+A API pressupõe uma inicialização, um carro por vez e uma confirmação por reserva. Não há validação de ponteiros nulos, garantia FIFO ou tratamento de falhas de criação dos recursos pthread.
 
 ## Arquivos e comandos
 
-`sync_car.h` declara o estado e a API; `sync_car.c` contém a implementação desta etapa; `Makefile` define a compilação. Cada pasta é independente.
+`sync_car.h` declara o estado e a API; `sync_car.c` contém a implementação desta etapa; `teste_etapa1.c` verifica a inicialização; `Makefile` define a compilação. Cada pasta é independente.
 
 ```sh
 make clean
 make
 ```
 
-A campanha específica de reserva de assentos foi concluída: quatro cenários, 20 execuções cada, em lotes de 10. Todos os 80 testes passaram. Em cada cenário, os dois lotes tiveram a mesma saída e o mesmo hash do binário. Consulte `evidencias.log` nesta pasta para as saídas completas e o resumo final. O teste antigo de inicialização foi retirado desta pasta antes da publicação.
-
-Os cenários cobrem duas pessoas para uma vaga, 16 pessoas em quatro carros, três pessoas em duas ondas e duas estações com distribuições distintas. A confirmação de embarque é simulada pelo teste sob o mutex, pois `station_on_board` ainda não está implementada nesta etapa. Os auxiliares e logs individuais ficam em `work/campanha_etapa3`.
+A campanha específica desta etapa foi concluída: quatro cenários com 20 execuções cada, em lotes de 10 a cada 7 minutos e 15 segundos. Todas as 80 execuções passaram, sem falha ou timeout. Os cenários incluem contagem zero, negativa, vagas sobrando e embarque em duas ondas. Em cada cenário, os dois lotes tiveram a mesma saída e o mesmo hash do binário. O resumo e as saídas estão em `evidencias.log`; os auxiliares ficam em `work/campanha_etapas4_5`. O alvo `make test` verifica somente a inicialização.
 
 Os arquivos `.c` e `.h` não contêm comentários. As explicações ficam neste README.
