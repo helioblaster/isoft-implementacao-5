@@ -1,26 +1,42 @@
-# Etapa 6: experimento de bloqueio
+# Sincronização do metrô
 
-Esta pasta contém temporariamente uma variante com defeito intencional para estudo. Em `sync_car.c`, a chegada do carro usa `pthread_cond_signal` para a condição dos passageiros. A versão anterior está preservada em `work/estudo_etapa6/sync_car_original_antes_experimento.c`. Não use esta variante como implementação final.
+Login: hmrn
 
-Especificar verificações do protocolo e compará-las com variantes de estudo.
+Implementação em C com pthreads, testada no Ubuntu/WSL2. O teste inicial, os quatro cenários de integração e o runner terminaram com código 0 em 4 de novembro de 2026.
 
-## Construção da lógica
+## Arquivos
 
-testes.c controla as confirmações para exigir que várias reservas ocorram antes de qualquer confirmação. Também cobre sobra e falta de vagas, dois vagões, estações independentes e contagem negativa.
+| Arquivo | Conteúdo |
+| --- | --- |
+| `sync_car.c` | Implementação das quatro funções da estação. |
+| `sync_car.h` | Estado da estação e protótipos. |
+| `sync_car-runner.c` | Runner fornecido no enunciado. |
+| `teste_etapa1.c` | Teste de inicialização. |
+| `testes.c` | Casos de integração e limites. |
+| `Makefile` | Compilação, testes e limpeza. |
+| `evidencias.log` | Comandos, horários e saídas reais. |
+| `hmrn.pdf` | Relatório técnico. |
+| `erro_etapa6.png` e `validacao_final.png` | Recortes do log usados no relatório. |
 
-## Limite desta etapa
-
-A suíte foi compilada e executada a partir de `work/estudo_etapa6`: os quatro casos passaram com a implementação original antes da troca. A campanha do defeito intencional terminou com 80/80 observações esperadas: 20/20 sem bloqueio no controle e 20/20 bloqueios reproduzidos em cada um dos três cenários com várias vagas. A referência original não apresentou bloqueio nos oito lotes. `evidencias.log` contém somente os comandos, as saídas e os horários originais das 80 execuções no formato do log bruto fornecido como exemplo. Uma sessão posterior capturada integralmente com `script` foi preservada em `work/campanha_etapa6/evidencias_sessao_nova_80.log`, fora da linha do tempo original. O amostrador da fila dorme 1 ms entre leituras apenas no teste; a implementação da estação usa condições, sem polling.
-
-## Arquivos e comandos
-
-`sync_car.h` declara o estado e a API; `sync_car.c` contém a implementação desta etapa; `teste_etapa1.c` verifica a inicialização; `Makefile` define a compilação. Cada pasta é independente.
+## Compilar e testar
 
 ```sh
 make clean
+make test-inicial
+make test-integracao
 make
+./sync_car
+make clean
 ```
 
-`make test` verifica somente a inicialização. O alvo `make test-integracao` usa a variante com defeito e pode terminar por timeout. Para reproduzir os resultados controlados, use o executor em `work/campanha_etapa6`. As demais variantes e testes específicos de estudo estão em `work/estudo_etapa6`.
+`make` gera `sync_car`. `make clean` remove os binários. A compilação do runner mostra um aviso de parâmetro não utilizado no arquivo recebido; os testes da implementação usam `-Werror` e passaram sem avisos.
 
-Os arquivos `.c` e `.h` não contêm comentários. As explicações ficam neste README.
+## Implementação
+
+Cada estação possui um mutex, duas variáveis de condição e três contadores. `waiting` conta passageiros na fila, `free_seats` conta vagas ainda não reservadas e `boarding` conta reservas sem confirmação. O passageiro reserva a vaga sob o mutex. O vagão parte quando não há mais reservas possíveis e todas as reservas foram confirmadas.
+
+Não há semáforos nem espera ativa em `sync_car.c`. A solução assume uma estação inicializada, um vagão por vez e uma chamada de `station_on_board` para cada retorno de `station_wait_for_car`.
+
+## Entrega
+
+O projeto foi preparado no diretório `hmrn/`, com `hmrn.tar` e `hmrn.pdf`. O link do repositório GitHub ainda depende da criação ou indicação do repositório remoto.

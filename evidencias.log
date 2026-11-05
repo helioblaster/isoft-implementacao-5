@@ -2311,763 +2311,865 @@ PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
 + 2026-11-01T12:39:51.585-03:00 ./teste4
 apos_A: returned_A=8 waiting_B=8 returned_B=0
 PASS teste=4 estacoes_independentes=2 retornos_A=8 retornos_B=8
-+ 2026-11-02T12:33:47.586275 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
-+ 2026-11-02T12:33:47.626924 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.586275-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.626924-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.662681 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.662681-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.701497 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.701497-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.743593 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.743593-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.791904 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.791904-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.847322 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.847322-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.900325 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.900325-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:47.960703 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:47.960703-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:48.022300 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:48.022300-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:33:48.084721 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
++ 2026-11-02T12:33:48.084721-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_01_a_10/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:40.688748 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
-+ 2026-11-02T12:44:40.764728 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:40.688748-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:40.764728-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:40.840262 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:40.840262-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:40.918498 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:40.918498-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.001271 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.001271-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.086745 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.086745-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.175270 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.175270-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.268631 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.268631-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.371851 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.371851-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.470117 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.470117-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:44:41.570074 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
++ 2026-11-02T12:44:41.570074-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t1_11_a_20/teste1
 PASS teste=1 reserva sem excesso de vagas
-+ 2026-11-02T12:49:33.299604 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
-+ 2026-11-02T12:49:33.427494 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.299604-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.427494-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:33.555855 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.555855-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:33.680533 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.680533-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:33.811783 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.811783-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:33.943357 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:33.943357-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:34.077579 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:34.077579-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:34.215150 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:34.215150-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:34.359182 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:34.359182-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:34.503687 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:34.503687-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:49:34.650859 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
++ 2026-11-02T12:49:34.650859-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_01_a_10/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:32.413369 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
-+ 2026-11-02T12:54:32.598344 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:32.413369-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:32.598344-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:32.790941 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:32.790941-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:32.973397 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:32.973397-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:33.161772 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:33.161772-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:33.350295 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:33.350295-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:33.544518 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:33.544518-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:33.749810 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:33.749810-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:33.960129 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:33.960129-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:34.156554 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:34.156554-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:54:34.355366 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
++ 2026-11-02T12:54:34.355366-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t2_11_a_20/teste2
 PASS teste=2 reserva sem excesso de vagas
-+ 2026-11-02T12:59:38.701857 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
-+ 2026-11-02T12:59:38.951055 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:38.701857-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:38.951055-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:39.192043 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:39.192043-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:39.425549 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:39.425549-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:39.739994 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:39.739994-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:39.996335 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:39.996335-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:40.265727 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:40.265727-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:40.554296 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:40.554296-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:40.929673 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:40.929673-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:41.224310 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:41.224310-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T12:59:41.493679 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
++ 2026-11-02T12:59:41.493679-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_01_a_10/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:35.896259 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
-+ 2026-11-02T13:04:36.197427 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:35.896259-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:36.197427-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:36.483578 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:36.483578-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:36.800952 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:36.800952-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:37.155064 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:37.155064-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:37.497897 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:37.497897-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:37.812188 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:37.812188-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:38.126005 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:38.126005-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:38.450106 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:38.450106-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:38.754534 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:38.754534-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:04:39.065564 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
++ 2026-11-02T13:04:39.065564-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t3_11_a_20/teste3
 PASS teste=3 reserva sem excesso de vagas
-+ 2026-11-02T13:09:36.206911 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
-+ 2026-11-02T13:09:36.580703 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:36.206911-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:36.580703-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:36.950535 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:36.950535-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:37.322026 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:37.322026-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:37.688055 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:37.688055-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:38.062966 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:38.062966-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:38.428555 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:38.428555-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:38.806112 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:38.806112-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:39.171774 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:39.171774-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:39.528249 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:39.528249-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:09:39.897534 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
++ 2026-11-02T13:09:39.897534-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_01_a_10/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:32.760628 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
-+ 2026-11-02T13:14:33.107837 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:32.760628-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/03_reserva_de_assentos/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:33.107837-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:33.450721 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:33.450721-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:33.789025 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:33.789025-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:34.111603 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:34.111603-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:34.440867 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:34.440867-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:34.797479 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:34.797479-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:35.138012 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:35.138012-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:35.490569 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:35.490569-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:35.837337 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:35.837337-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-02T13:14:36.190209 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
++ 2026-11-02T13:14:36.190209-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa3/lote_t4_11_a_20/teste4
 PASS teste=4 reserva sem excesso de vagas
-+ 2026-11-03T22:29:48.347592 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste_e4_t1
-+ 2026-11-03T22:29:48.393614 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.347592-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste_e4_t1
++ 2026-11-03T22:29:48.393614-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.436020 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.436020-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.479487 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.479487-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.524678 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.524678-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.573272 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.573272-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.624704 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.624704-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.678983 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.678983-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.738159 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.738159-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.802959 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.802959-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:29:48.868209 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
++ 2026-11-03T22:29:48.868209-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_01_a_10/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.305409 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste_e4_t1
-+ 2026-11-03T22:37:55.386205 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.305409-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste_e4_t1
++ 2026-11-03T22:37:55.386205-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.468977 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.468977-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.559527 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.559527-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.652998 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.652998-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.748051 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.748051-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.847121 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.847121-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:55.945767 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:55.945767-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:56.049270 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:56.049270-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:56.158536 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:56.158536-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:37:56.267875 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
++ 2026-11-03T22:37:56.267875-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t1_11_a_20/teste1
 PASS etapa=4 teste=1
-+ 2026-11-03T22:44:55.741076 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste_e4_t2
-+ 2026-11-03T22:44:55.893742 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:55.741076-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste_e4_t2
++ 2026-11-03T22:44:55.893742-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.053092 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.053092-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.206097 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.206097-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.354038 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.354038-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.510292 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.510292-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.688808 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.688808-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:56.868553 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:56.868553-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:57.043272 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:57.043272-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:57.216510 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:57.216510-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:44:57.400450 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
++ 2026-11-03T22:44:57.400450-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_01_a_10/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:55.683064 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste_e4_t2
-+ 2026-11-03T22:51:55.913576 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:55.683064-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste_e4_t2
++ 2026-11-03T22:51:55.913576-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:56.129832 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:56.129832-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:56.330345 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:56.330345-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:56.534234 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:56.534234-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:56.730220 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:56.730220-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:56.924513 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:56.924513-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:57.134759 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:57.134759-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:57.353605 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:57.353605-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:57.572596 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:57.572596-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:51:57.784770 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
++ 2026-11-03T22:51:57.784770-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t2_11_a_20/teste2
 PASS etapa=4 teste=2
-+ 2026-11-03T22:58:57.072387 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste_e4_t3
-+ 2026-11-03T22:58:57.363450 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:57.072387-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste_e4_t3
++ 2026-11-03T22:58:57.363450-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:57.673334 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:57.673334-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:57.918219 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:57.918219-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:58.128963 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:58.128963-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:58.371266 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:58.371266-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:58.659476 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:58.659476-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:58.919516 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:58.919516-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:59.223037 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:59.223037-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:59.499951 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:59.499951-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T22:58:59.764665 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
++ 2026-11-03T22:58:59.764665-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_01_a_10/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:05:58.912433 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste_e4_t3
-+ 2026-11-03T23:05:59.192167 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:05:58.912433-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste_e4_t3
++ 2026-11-03T23:05:59.192167-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:05:59.473929 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:05:59.473929-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:05:59.762314 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:05:59.762314-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:00.031531 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:00.031531-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:00.323052 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:00.323052-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:00.616482 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:00.616482-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:00.880678 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:00.880678-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:01.139393 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:01.139393-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:01.406419 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:01.406419-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:06:01.683717 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
++ 2026-11-03T23:06:01.683717-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t3_11_a_20/teste3
 PASS etapa=4 teste=3
-+ 2026-11-03T23:12:55.977532 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste_e4_t4
-+ 2026-11-03T23:12:56.336575 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:55.977532-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste_e4_t4
++ 2026-11-03T23:12:56.336575-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:56.737410 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:56.737410-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:57.074210 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:57.074210-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:57.462347 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:57.462347-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:57.794180 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:57.794180-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:58.134058 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:58.134058-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:58.447182 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:58.447182-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:58.759073 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:58.759073-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:59.065636 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:59.065636-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:12:59.381696 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
++ 2026-11-03T23:12:59.381696-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_01_a_10/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:55.329413 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste_e4_t4
-+ 2026-11-03T23:19:55.689213 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:55.329413-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=4 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/04_confirmacao_de_embarque/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste_e4_t4
++ 2026-11-03T23:19:55.689213-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:56.003958 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:56.003958-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:56.365341 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:56.365341-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:56.732772 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:56.732772-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:57.128546 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:57.128546-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:57.488139 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:57.488139-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:57.818724 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:57.818724-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:58.147691 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:58.147691-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:58.479236 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:58.479236-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:19:58.818931 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
++ 2026-11-03T23:19:58.818931-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e4_t4_11_a_20/teste4
 PASS etapa=4 teste=4
-+ 2026-11-03T23:26:55.536549 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste_e5_t1
-+ 2026-11-03T23:26:55.571582 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.536549-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste_e5_t1
++ 2026-11-03T23:26:55.571582-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.607305 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.607305-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.643997 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.643997-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.685095 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.685095-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.730165 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.730165-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.776615 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.776615-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.827211 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.827211-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.882199 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.882199-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:55.942709 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:55.942709-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:26:56.001286 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
++ 2026-11-03T23:26:56.001286-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_01_a_10/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:04.259975 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste_e5_t1
-+ 2026-11-03T23:34:04.355119 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:04.259975-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste_e5_t1
++ 2026-11-03T23:34:04.355119-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:04.450814 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:04.450814-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:04.559790 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:04.559790-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:04.934489 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:04.934489-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:05.298615 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:05.298615-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:05.473381 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:05.473381-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:05.633782 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:05.633782-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:06.038084 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:06.038084-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:06.567063 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:06.567063-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:34:06.845521 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
++ 2026-11-03T23:34:06.845521-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t1_11_a_20/teste1
 PASS etapa=5 teste=1
-+ 2026-11-03T23:40:55.524607 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste_e5_t2
-+ 2026-11-03T23:40:55.657013 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:55.524607-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste_e5_t2
++ 2026-11-03T23:40:55.657013-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:55.782034 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:55.782034-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:55.907311 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:55.907311-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.037773 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.037773-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.175167 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.175167-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.312261 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.312261-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.451977 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.451977-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.590829 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.590829-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.733632 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.733632-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:40:56.891775 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
++ 2026-11-03T23:40:56.891775-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_01_a_10/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:56.199328 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste_e5_t2
-+ 2026-11-03T23:47:56.377280 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:56.199328-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste_e5_t2
++ 2026-11-03T23:47:56.377280-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:56.550609 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:56.550609-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:56.738913 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:56.738913-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:56.916444 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:56.916444-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:57.101982 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:57.101982-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:57.289845 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:57.289845-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:57.480706 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:57.480706-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:57.672322 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:57.672322-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:57.866905 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:57.866905-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:47:58.067585 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
++ 2026-11-03T23:47:58.067585-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t2_11_a_20/teste2
 PASS etapa=5 teste=2
-+ 2026-11-03T23:54:56.780740 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste_e5_t3
-+ 2026-11-03T23:54:57.011269 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:56.780740-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste_e5_t3
++ 2026-11-03T23:54:57.011269-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:57.241445 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:57.241445-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:57.476228 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:57.476228-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:57.718026 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:57.718026-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:57.970451 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:57.970451-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:58.239920 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:58.239920-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:58.510194 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:58.510194-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:58.777315 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:58.777315-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:59.052699 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:59.052699-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-03T23:54:59.331355 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
++ 2026-11-03T23:54:59.331355-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_01_a_10/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:56.255360 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste_e5_t3
-+ 2026-11-04T00:01:56.528702 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:56.255360-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste_e5_t3
++ 2026-11-04T00:01:56.528702-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:56.797644 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:56.797644-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:57.071630 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:57.071630-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:57.351112 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:57.351112-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:57.631866 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:57.631866-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:57.917563 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:57.917563-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:58.203658 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:58.203658-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:58.485703 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:58.485703-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:58.772261 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:58.772261-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:01:59.062758 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
++ 2026-11-04T00:01:59.062758-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t3_11_a_20/teste3
 PASS etapa=5 teste=3
-+ 2026-11-04T00:08:58.062184 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste_e5_t4
-+ 2026-11-04T00:08:58.393050 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:08:58.062184-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste_e5_t4
++ 2026-11-04T00:08:58.393050-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:08:58.725537 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:08:58.725537-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:08:59.044955 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:08:59.044955-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:08:59.371580 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:08:59.371580-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:08:59.737410 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:08:59.737410-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:09:00.068093 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:09:00.068093-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:09:00.406926 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:09:00.406926-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:09:00.746397 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:09:00.746397-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:09:01.090140 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:09:01.090140-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:09:01.435747 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
++ 2026-11-04T00:09:01.435747-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_01_a_10/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:15:58.115166 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste_e5_t4
-+ 2026-11-04T00:15:58.487954 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:15:58.115166-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DETAPA=5 -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/05_casos_limite/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste_e5_t4
++ 2026-11-04T00:15:58.487954-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:15:58.844758 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:15:58.844758-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:15:59.210804 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:15:59.210804-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:15:59.579721 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:15:59.579721-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:15:59.953130 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:15:59.953130-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:16:00.321988 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:16:00.321988-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:16:00.698388 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:16:00.698388-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:16:01.092102 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:16:01.092102-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:16:01.476150 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:16:01.476150-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T00:16:01.861371 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
++ 2026-11-04T00:16:01.861371-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapas4_5/lote_e5_t4_11_a_20/teste4
 PASS etapa=5 teste=4
-+ 2026-11-04T14:00:20.966558 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
-+ 2026-11-04T14:00:20.966558 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/referencia1
-+ 2026-11-04T14:00:21.033266 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:20.966558-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:20.966558-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/referencia1
++ 2026-11-04T14:00:21.033266-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.068099 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.068099-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.106680 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.106680-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.146104 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.146104-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.188652 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.188652-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.234490 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.234490-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.282933 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.282933-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.336532 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.336532-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.398043 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.398043-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:00:21.458067 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
++ 2026-11-04T14:00:21.458067-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_01_a_10/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:40.591169 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
-+ 2026-11-04T14:07:40.591169 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/referencia1
-+ 2026-11-04T14:07:40.749742 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:40.591169-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:40.591169-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=1 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/referencia1
++ 2026-11-04T14:07:40.749742-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:40.831532 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:40.831532-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:40.915238 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:40.915238-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.004049 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.004049-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.100273 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.100273-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.193791 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.193791-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.292049 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.292049-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.393077 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.393077-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.507651 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.507651-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:07:41.617229 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
++ 2026-11-04T14:07:41.617229-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t1_11_a_20/teste1
 CENARIO=1 PESSOAS=1 VAGAS=1 AUTORIZADOS=1 ESPERANDO=0 VAGAS_LIVRES=0 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=1
 RESULTADO=SEM_BLOQUEIO
-+ 2026-11-04T14:14:39.771636 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
-+ 2026-11-04T14:14:39.771636 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/referencia2
-+ 2026-11-04T14:14:41.112727 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:39.771636-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:39.771636-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/referencia2
++ 2026-11-04T14:14:41.112727-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:42.331182 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:42.331182-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:43.556465 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:43.556465-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:44.798123 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:44.798123-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:46.031237 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:46.031237-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:47.277457 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:47.277457-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:48.523929 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:48.523929-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:49.784031 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:49.784031-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:51.033738 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:51.033738-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T14:14:52.314657 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
++ 2026-11-04T14:14:52.314657-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_01_a_10/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:20.874433 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
-+ 2026-11-04T18:49:20.874433 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/referencia2
-+ 2026-11-04T18:49:22.329564 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:20.874433-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:20.874433-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=2 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/referencia2
++ 2026-11-04T18:49:22.329564-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:23.617831 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:23.617831-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:24.899328 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:24.899328-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:26.173234 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:26.173234-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:27.422589 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:27.422589-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:28.670804 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:28.670804-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:29.928184 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:29.928184-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:31.189089 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:31.189089-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:32.444835 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:32.444835-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:49:33.701156 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
++ 2026-11-04T18:49:33.701156-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t2_11_a_20/teste2
 CENARIO=2 PESSOAS=2 VAGAS=2 AUTORIZADOS=1 ESPERANDO=1 VAGAS_LIVRES=1 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:50:52.264337 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
-+ 2026-11-04T18:50:52.264337 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/referencia3
-+ 2026-11-04T18:50:53.809136 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:52.264337-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:52.264337-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/referencia3
++ 2026-11-04T18:50:53.809136-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:50:55.146006 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:55.146006-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:50:56.481936 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:56.481936-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:50:57.824464 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:57.824464-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:50:59.167379 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:50:59.167379-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:51:00.513777 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:51:00.513777-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:51:01.857258 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:51:01.857258-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:51:03.206889 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:51:03.206889-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:51:04.558404 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:51:04.558404-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:51:05.924268 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
++ 2026-11-04T18:51:05.924268-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_01_a_10/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:57:54.215077 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
-+ 2026-11-04T18:57:54.215077 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/referencia3
-+ 2026-11-04T18:57:55.793006 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:57:54.215077-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:57:54.215077-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=3 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/referencia3
++ 2026-11-04T18:57:55.793006-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:57:57.104633 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:57:57.104633-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:57:58.429851 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:57:58.429851-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:57:59.746595 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:57:59.746595-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:01.087237 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:01.087237-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:02.411104 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:02.411104-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:03.756936 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:03.756936-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:05.099851 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:05.099851-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:06.476760 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:06.476760-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T18:58:07.842162 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
++ 2026-11-04T18:58:07.842162-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t3_11_a_20/teste3
 CENARIO=3 PESSOAS=4 VAGAS=3 AUTORIZADOS=1 ESPERANDO=3 VAGAS_LIVRES=2 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:04:51.129249 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
-+ 2026-11-04T19:04:51.129249 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/referencia4
-+ 2026-11-04T19:04:52.888885 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:51.129249-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:51.129249-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/referencia4
++ 2026-11-04T19:04:52.888885-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:04:54.371612 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:54.371612-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:04:55.796342 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:55.796342-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:04:57.231578 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:57.231578-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:04:58.661905 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:04:58.661905-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:05:00.048821 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:05:00.048821-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:05:01.449748 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:05:01.449748-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:05:02.834233 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:05:02.834233-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:05:04.243232 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:05:04.243232-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:05:05.665759 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
++ 2026-11-04T19:05:05.665759-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_01_a_10/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:50.733654 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
-+ 2026-11-04T19:11:50.733654 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/referencia4
-+ 2026-11-04T19:11:52.421074 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:50.733654-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao/sync_car.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:50.733654-03:00 cc -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -pthread -DCENARIO=4 -I /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/06_testes_de_integracao /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/estudo_etapa6/sync_car_original_antes_experimento.c /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/cenarios.c -o /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/referencia4
++ 2026-11-04T19:11:52.421074-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:53.813815 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:53.813815-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:55.200700 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:55.200700-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:56.604450 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:56.604450-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:57.995919 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:57.995919-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:11:59.392287 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:11:59.392287-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:12:00.792976 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:12:00.792976-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:12:02.188789 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:12:02.188789-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:12:03.590721 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:12:03.590721-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
-+ 2026-11-04T19:12:04.996638 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
++ 2026-11-04T19:12:04.996638-03:00 /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/work/campanha_etapa6/lote_t4_11_a_20/teste4
 CENARIO=4 PESSOAS=16 VAGAS=8 AUTORIZADOS=1 ESPERANDO=15 VAGAS_LIVRES=7 CONFIRMACOES_PENDENTES=0 CARRO_PARTIU=0
 RESULTADO=BLOQUEIO_REPRODUZIDO
++ 2026-11-04T21:18:07-03:00 cd /mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/07_entrega_documentada
++ 2026-11-04T21:18:07-03:00 date -Is
+2026-11-04T21:18:07-03:00
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 whoami
+helioblaster
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 pwd
+/mnt/c/Users/PICHAU/Documents/Codex/2026-10-31/https-github-com-blader-humanizer-https/outputs/02_sete_etapas/07_entrega_documentada
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 uname -srm
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 cc --version
+cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 make --version
+GNU Make 4.4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 sha256sum sync_car.c sync_car.h sync_car-runner.c teste_etapa1.c testes.c Makefile
+bd7aa7c08c201e293d5d800c7a1fcf4f7d208bb4f046f642a345038f2a4715fc  sync_car.c
+6c909d3baf92c603bb4409c19b7c2c03782b313cfe46aa9c034afe5125ec17da  sync_car.h
+0b9ada83b4c43bdc9abd5ba5d57a23dafdae338cc32430f51f258842e8e5579b  sync_car-runner.c
+fd7b86a277f0c7d2ac5e143f1fe4428ca0515baaba60d6a46e36b33a52d05d7a  teste_etapa1.c
+f1512d89b5f2a75035aeac81502564683eb5455dd9a7564f28c7cc4117ce891b  testes.c
+cb8882e92e6ac0a91f92c2e1dde8cc4f1690655f00031899a88e98a74c071f28  Makefile
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 make clean
+rm -f sync_car testes teste_etapa1 *.o
++ 2026-11-04T21:18:07-03:00 rc=0
++ 2026-11-04T21:18:07-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:07-03:00 timeout 35s make test-inicial
+cc -std=c11 -Wall -Wextra -Wpedantic -O2 -Werror -pthread sync_car.c teste_etapa1.c -o teste_etapa1
+./teste_etapa1
+PASS 1: duas estacoes inicializadas com contadores zerados
+PASS 2: estados independentes e mutex utilizavel
+PASS 3: condicoes inicializadas permitem espera e notificacao real
+PASS 4: recursos liberados apos o encerramento das threads
+ETAPA 1 APROVADA: 4 verificacoes; protocolo de embarque ainda nao testado
++ 2026-11-04T21:18:08-03:00 rc=0
++ 2026-11-04T21:18:08-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:08-03:00 timeout 35s make test-integracao
+cc -std=c11 -Wall -Wextra -Wpedantic -O2 -Werror -pthread sync_car.c testes.c -o testes
+./testes
+PASS: passageiros=1, primeiro_vagao=1, confirmacoes controladas
+PASS: passageiros=6, primeiro_vagao=2, confirmacoes controladas
+PASS: passageiros=12, primeiro_vagao=12, confirmacoes controladas
+PASS: passageiros=32, primeiro_vagao=7, confirmacoes controladas
+TESTES DE INTEGRACAO APROVADOS
++ 2026-11-04T21:18:08-03:00 rc=0
++ 2026-11-04T21:18:08-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:08-03:00 make
+cc -D_DEFAULT_SOURCE -std=c11 -Wall -Wextra -Wpedantic -O2 -pthread sync_car.c sync_car-runner.c -o sync_car
+sync_car-runner.c: In function ‘alarm_handler’:
+sync_car-runner.c:45:24: warning: unused parameter ‘foo’ [-Wunused-parameter]
+   45 | void alarm_handler(int foo)
+      |                    ~~~~^~~
++ 2026-11-04T21:18:08-03:00 rc=0
++ 2026-11-04T21:18:08-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:18:08-03:00 timeout 35s ./sync_car
+car entering station with 44 free seats
+car departed station with 44 new passenger(s) (expected 44)
+car entering station with 30 free seats
+car departed station with 30 new passenger(s) (expected 30)
+car entering station with 46 free seats
+car departed station with 26 new passenger(s) (expected 26)
+Looks good!
++ 2026-11-04T21:18:09-03:00 rc=0
++ 2026-11-04T21:18:09-03:00 echo EXIT=0
+EXIT=0
++ 2026-11-04T21:19:30-03:00 make clean
+rm -f sync_car testes teste_etapa1 *.o
++ 2026-11-04T21:19:30-03:00 rc=0
++ 2026-11-04T21:19:30-03:00 echo EXIT=0
+EXIT=0
