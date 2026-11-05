@@ -1,22 +1,19 @@
 # Sincronização do metrô
 
-Login: hmrn
 
 Implementação em C com pthreads, testada no Ubuntu/WSL2. O teste inicial, os quatro cenários de integração e o runner terminaram com código 0 em 4 de novembro de 2026.
 
 ## Arquivos
 
-| Arquivo | Conteúdo |
-| --- | --- |
-| `sync_car.c` | Implementação das quatro funções da estação. |
-| `sync_car.h` | Estado da estação e protótipos. |
-| `sync_car-runner.c` | Runner fornecido no enunciado. |
-| `teste_etapa1.c` | Teste de inicialização. |
-| `testes.c` | Casos de integração e limites. |
-| `Makefile` | Compilação, testes e limpeza. |
-| `evidencias.log` | Comandos, horários e saídas reais. |
-| `hmrn.pdf` | Relatório técnico. |
-| `erro_etapa6.png` e `validacao_final.png` | Recortes do log usados no relatório. |
+ Arquivo Conteúdo 
+
+ `sync_car.c` Implementação das quatro funções da estação. |
+ `sync_car.h` | Estado da estação e protótipos. |
+ `sync_car-runner.c` | Runner fornecido no enunciado. |
+ `Makefile` | Compilação, testes e limpeza. |
+ `evidencias.log`  Comandos, horários e saídas .
+ `hmrn.pdf` | Relatório técnico. 
+ 
 
 ## Compilar e testar
 
@@ -39,4 +36,4 @@ Não há semáforos nem espera ativa em `sync_car.c`. A solução assume uma est
 
 ## Entrega
 
-O projeto foi preparado no diretório `hmrn/`, com `hmrn.tar` e `hmrn.pdf`. O link do repositório GitHub ainda depende da criação ou indicação do repositório remoto.
+O projeto foi preparado no diretório `hmrn/` e `hmrn.pdf`.
